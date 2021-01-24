@@ -6,7 +6,7 @@ institute: "RStudio, PBC"
 date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
-    lib_dir: Docs
+    lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
