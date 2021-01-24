@@ -13,27 +13,110 @@ output:
       countIncrementalSlides: false
 ---
 
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
-
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
 
-???
+# Objetivo de la presentación
 
-Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
+<p align="justify"> Presentar a la comunidad universitaria y  a la sociedad en general las tendencias y el comportamiento actual de un número importante de estadísticas e indicadores institucionales de la [Universidad Nacional de Colombia](http://unal.edu.co/). Esperamos que la disposición y el análisis de esta información y de otras fuentes disponibles, alimenten el debate en los diferentes espacios de construcción colectiva  que acompañarán los procesos de construcción del [Plan Global de Desarrollo 2019-2021](http://plei2030.unal.edu.co/) y del [Plan Estratégico Institucional 2030](http://plei2030.unal.edu.co/).</p>
 
 ---
-class: center, middle
 
-# xaringan
+## Consideraciones para el uso adecuado de la presentación
 
-### /ʃaː.'riŋ.ɡan/
+  1.	<p style="font-size:100%  align="justify";> Dar click en la letra H o en el símbolo ? para desplegar las distintas opciones de navegación que ofrece la presentación.</p>
+  
+  2.	<p style="font-size:100%  align="justify";> Dar click en la tecla Esc para salir del modo "Pantalla Completa"</p>
+  
+  3.	<p style="font-size:100%  align="justify";> La opción “Pantalla Completa” presenta problemas en los dispositivos móviles Ipad e Iphone de Apple.</p>
+  
+  4.	<p style="font-size:100%"  align="justify";> Buena parte de los gráficos contenidos en las distintas diapositivas pueden ser “manipulados” al hacer click en las distintas opciones/etiquetas que los acompañan.</p>
+
+---
+
+# Contenido
+
+### [1. Equidad, inclusión y Bienestar](https://estadisticaun.github.io/TendenciasPGD2018/#6)
+### [2. Calidad](https://estadisticaun.github.io/TendenciasPGD2018/#13)
+### [3. Productos, resultados e impactos](https://estadisticaun.github.io/TendenciasPGD2018/#29)
+### [4. Rankings](https://estadisticaun.github.io/TendenciasPGD2018/#33)
+### [5. Aspectos Financieros](https://estadisticaun.github.io/TendenciasPGD2018/#45)
+### [6. Plan Global de Desarrollo](https://estadisticaun.github.io/TendenciasPGD2018/#45)
+
 
 ---
 class: inverse, center, middle
 
-# Get Started
+# 1. Equidad, inclusión y bienestar
+
+---
+
+# Equidad de género
+
+### Aspirantes
+
+<iframe width="100%" height="400px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/A_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+
+---
+
+### Admitidos
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/A_sexo.html"></iframe>
+
+<font size=2><i>Fuente: Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
+
+---
+
+# Equidad territorial
+
+### Matriculados por sede
+
+
+---
+
+## Matriculados por municipios
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html"></iframe>
+
+<font size=2><i>Fuente: Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
+
+
+# 2. Calidad
+
+---
+
+class: middle
+
+# Máxima Formación - Docentes de Carrera
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/S_formacion.html"></iframe>
+
+<font size=2><i>Fuente: Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
+
+---
+class: inverse, center, middle
+
+# 3. Productos, resultados e impactos
+
+
+---
+class: inverse, center, middle
+
+# 4. Rankings
+
+
+---
+class: inverse, center, middle
+
+# 5. Aspectos Financieros
+
+---
+class: inverse, middle, center
+
+# 6. Plan Global de Desarrollo
 
 ---
 
@@ -602,14 +685,6 @@ class: center
 Press `h` or `?` to see the possible ninjutsu you can use in remark.js.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Mudra-Naruto-KageBunshin.svg)
-
----
-
-class: center, middle
-
-# Máxima Formación - Docentes de Carrera
-
-<iframe width="100%" height="500px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/S_formacion.html"></iframe>
 
 ---
 
