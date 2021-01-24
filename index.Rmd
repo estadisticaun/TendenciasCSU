@@ -1,9 +1,9 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "TENDENCIAS UNAL"
+subtitle: "Consejo superior Universitario - CSU"
+author: "Dirección Nacional de Planeación y Estadística"
+institute: "Universidad Nacional de Colombia"
+date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -602,6 +602,14 @@ class: center
 Press `h` or `?` to see the possible ninjutsu you can use in remark.js.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Mudra-Naruto-KageBunshin.svg)
+
+---
+
+class: center, middle
+
+# Máxima Formación - Docentes de Carrera
+
+<iframe width="100%" height="500px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/S_formacion.html"></iframe>
 
 ---
 
