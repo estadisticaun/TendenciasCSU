@@ -37,26 +37,93 @@ options(htmltools.dir.version = FALSE)
 
 # Contenido
 
-### [1. Equidad, inclusión y Bienestar](https://estadisticaun.github.io/TendenciasPGD2018/#6)
-### [2. Calidad](https://estadisticaun.github.io/TendenciasPGD2018/#13)
-### [3. Productos, resultados e impactos](https://estadisticaun.github.io/TendenciasPGD2018/#29)
-### [4. Rankings](https://estadisticaun.github.io/TendenciasPGD2018/#33)
-### [5. Aspectos Financieros](https://estadisticaun.github.io/TendenciasPGD2018/#45)
-### [6. Plan Global de Desarrollo](https://estadisticaun.github.io/TendenciasPGD2018/#45)
+### [1. Tendencias Generales](https://estadisticaun.github.io/TendenciasPGD2018/#6)
+### [2. Equidad, inclusión y Bienestar](https://estadisticaun.github.io/TendenciasPGD2018/#6)
+### [3. Calidad](https://estadisticaun.github.io/TendenciasPGD2018/#13)
+### [4. Productos, resultados e impactos](https://estadisticaun.github.io/TendenciasPGD2018/#29)
+### [5. Rankings](https://estadisticaun.github.io/TendenciasPGD2018/#33)
+### [6. Aspectos Financieros](https://estadisticaun.github.io/TendenciasPGD2018/#45)
+### [7. Plan Global de Desarrollo](https://estadisticaun.github.io/TendenciasPGD2018/#45)
 
 
 ---
 class: inverse, center, middle
 
-# 1. Equidad, inclusión y bienestar
+# 1. Tendencias Generales
 
 ---
+### Evolución de Aspirantes
 
-# Equidad de género
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/Serie.html"></iframe>
 
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font> 
+
+
+---
+### Evolución de Admitidos
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/Serie.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font> 
+
+---
+### Evolución de matriculados
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Serie.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>
+
+
+---
+### Evolución de Graduados
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Graduados/Nal/Graduados/Serie.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Secretaría General</i></font>
+
+---
+### Evolución de Docentes de Carrera
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/Serie.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
+
+---
+### Evolución de Funcionarios de Carrera
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Administrativos/Nal/Carrera/Serie.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
+
+---
+## Para tener en cuenta
+
+--
+
+- La cantidad de aspirantes ...
+
+--
+
+- La cantidad de matriculados ....
+
+--
+
+- La cantidad de graduados ....
+
+
+---
+class: inverse, center, middle
+
+# 2. Equidad, inclusión y bienestar
+
+---
+class: inverse, center, middle
+## 2.1 Equidad de género
+
+---
 ### Aspirantes
 
-<iframe width="100%" height="400px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/A_sexo.html"></iframe>
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/S_sexo.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
 
@@ -64,33 +131,66 @@ class: inverse, center, middle
 
 ### Admitidos
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/A_sexo.html"></iframe>
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/S_sexo.html"></iframe>
 
 <font size=2><i>Fuente: Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
 
 ---
+### Matriculados
 
-# Equidad territorial
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/S_sexo.html"></iframe>
 
-### Matriculados por sede
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
 
+---
+### Graduados
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Graduados/Nal/Graduados/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+
+---
+### Docentes de Carrera
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+
+---
+### Funcionarios de carrera
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Administrativos/Nal/Carrera/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+
+---
+class: inverse, center, middle
+## 2.2 Equidad territorial
 
 ---
 
-## Matriculados por municipios
+### Matriculados por sedes
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/A_sede.html"></iframe>
+
+<font size=2><i>Fuente: Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>
+
+---
+
+### Matriculados por municipios
 
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html"></iframe>
 
 <font size=2><i>Fuente: Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
 
 
-# 2. Calidad
+---
+class: inverse, center, middle
+
+# 3. Calidad
 
 ---
-
-class: middle
-
-# Máxima Formación - Docentes de Carrera
+## Máxima Formación - Docentes de Carrera
 
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/S_formacion.html"></iframe>
 
@@ -99,24 +199,24 @@ class: middle
 ---
 class: inverse, center, middle
 
-# 3. Productos, resultados e impactos
+# 4. Productos, resultados e impactos
 
 
 ---
 class: inverse, center, middle
 
-# 4. Rankings
+# 5. Rankings
 
 
 ---
 class: inverse, center, middle
 
-# 5. Aspectos Financieros
+# 6. Aspectos Financieros
 
 ---
 class: inverse, middle, center
 
-# 6. Plan Global de Desarrollo
+# 7. Plan Global de Desarrollo
 
 ---
 
