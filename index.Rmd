@@ -198,19 +198,36 @@ class: inverse, center, middle
 
 # 3. Calidad
 
+
 ---
-## Máxima Formación - Docentes de Carrera
+class: inverse, center, middle
+
+## 3.1 Docentes
+
+---
+### Máxima Formación - Docentes de Carrera
 
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/S_formacion.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
 
 ---
-## Resultados Pruebas SaberPRO 
+class: inverse, center, middle
+
+## 3.2 Resultados pruebas SaberPRO
+
+---
+### Resultados por sedes
 
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sede.html"></iframe>
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el ICFES</i></font>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. <br>
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sede.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sede.html</a></i></font> 
+
+
+
+
 
 ---
 class: inverse, center, middle

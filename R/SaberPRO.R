@@ -24,14 +24,21 @@ saber19un <- as.data.frame(P2019_SaberPro_GEN)
 cols.to.factor <- sapply( saber19un, function(col) length(unique(col)) < 97 )
 saber19un[cols.to.factor] <- lapply(saber19un[cols.to.factor] , factor)
 
-# Función radares
+# Función salvar widges
 
-
+Salvar <- function(objeto, ruta, nombre){
+  saveWidget(objeto,
+             file = file.path(str_sub(getwd(), 1, str_length(getwd())),
+                              ruta,
+                              nombre),
+             selfcontained = F, libdir = "libraryjs")
+  
+}
 
 
 # Función para radares
 
-grafica_radar <- function(datos, clase, mini = 100, maxi=300, orden = "normal", opacity = 1, llenar = T)
+grafica_radar <- function(datos, clase, etiqueta, mini = 100, maxi=300, orden = "normal", opacity = 1, llenar = T)
 {
   pruebaspunUN <- c("PUNTAJE_GLOBAL",
                     "RAZONAMIENTO CUANTITATIVO",
@@ -92,14 +99,11 @@ grafica_radar <- function(datos, clase, mini = 100, maxi=300, orden = "normal", 
         x = 0.98,
         y = 0.8
       ),
-      legend = list(title = list(text = str_c("Puntajes por ", str_to_lower(clase)), font = list(size = 15)), traceorder = ordenleyendas, orientation = "h", xanchor = "center", x = 0.5)
+      legend = list(title = list(text = etiqueta, font = list(size = 15)), traceorder = ordenleyendas, orientation = "h", xanchor = "center", x = 0)
     )
   
   grafica
 }
-
-
-layout(legend = list())  
 
 #Datos: dataframe.  Sin Default.
 #Clase: Variable a segregar.  Sin Default.
@@ -113,31 +117,29 @@ layout(legend = list())
 
 # Gráficos de interes
 
-Saber_Global<- grafica_radar(saber19un, clase = "GLOBAL")
-Saber_GlobalZ<- grafica_radar(saber19un, clase = "GLOBAL", maxi = 200)
+Saber_Global<- grafica_radar(saber19un, clase = "GLOBAL", etiqueta = " ")
+Saber_GlobalZ<- grafica_radar(saber19un, clase = "GLOBAL", etiqueta = " ", maxi = 200)
+Saber_Sede <- grafica_radar(saber19un, clase = "SEDE_NOMBRE_ADM", etiqueta = "Sede", maxi = 200)
+Saber_Sexo <- grafica_radar(saber19un, clase = "SEXO", etiqueta = "Sexo", maxi = 220)
+Saber_Tipo <- grafica_radar(saber19un, clase = "TIPO_ADM", etiqueta = "Tipo de admisión", maxi = 220)
+Saber_PAES <- grafica_radar(saber19un, clase = "PAES", etiqueta = "PAES", maxi = 220)
+Saber_PEAMA <- grafica_radar(saber19un, clase = "PEAMA", etiqueta = "PEAMA", maxi = 220)
+Saber_PBM <- grafica_radar(saber19un, clase = "PBM", etiqueta = "PBM", maxi = 220)
+Saber_Estrato <- grafica_radar(saber19un, clase = "ESTRATO", etiqueta = "Estrato", maxi = 220)
+Saber_Area <- grafica_radar(saber19un, clase = "AREAC_SNIES", etiqueta = "Áreas del conocimiento", maxi = 220)
 
-Saber_Sede <- grafica_radar(saber19un, clase = "SEDE_NOMBRE_ADM", maxi = 200)
-Saber_Sexo <- grafica_radar(saber19un, clase = "SEXO", maxi = 220)
-Saber_Tipo <- grafica_radar(saber19un, clase = "TIPO_ADM", maxi = 220)
-Saber_PBM <- grafica_radar(saber19un, clase = "PBM", maxi = 220)
-Saber_Estrato <- grafica_radar(saber19un, clase = "ESTRATO", maxi = 220)
-Saber_Area <- grafica_radar(saber19un, clase = "AREAC_SNIES", maxi = 220)
-
-# Exportar archivos HTML
-
-
-
-Salvar <- function(objeto, ruta, nombre){
-  saveWidget(objeto,
-             file = file.path(str_sub(getwd(), 1, str_length(getwd())),
-                              ruta,
-                              nombre),
-             selfcontained = F, libdir = "libraryjs")
-
-}
-
+# Salvar htmls
 
 Salvar(Saber_Global, "SaberPro", "General.html")
+Salvar(Saber_GlobalZ, "SaberPro", "Generalz.html")
+Salvar(Saber_Sede, "SaberPro", "Sede.html")
+Salvar(Saber_Sexo, "SaberPro", "Sexo.html")
+Salvar(Saber_Tipo, "SaberPro", "Tipo.html")
+Salvar(Saber_PAES, "SaberPro", "Paes.html")
+Salvar(Saber_PEAMA, "SaberPro", "Peama.html")
+Salvar(Saber_PBM, "SaberPro", "Pbm.html")
+Salvar(Saber_Estrato, "SaberPro", "Estrato.html")
+Salvar(Saber_Area, "SaberPro", "Area.html")
 
 
 
