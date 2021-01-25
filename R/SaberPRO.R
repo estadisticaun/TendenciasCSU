@@ -126,7 +126,7 @@ Saber_PAES <- grafica_radar(saber19un, clase = "PAES", etiqueta = "PAES", maxi =
 Saber_PEAMA <- grafica_radar(saber19un, clase = "PEAMA", etiqueta = "PEAMA", maxi = 220)
 Saber_PBM <- grafica_radar(saber19un, clase = "PBM", etiqueta = "PBM", maxi = 220)
 Saber_Estrato <- grafica_radar(saber19un, clase = "ESTRATO", etiqueta = "Estrato", maxi = 220)
-Saber_Area <- grafica_radar(saber19un, clase = "AREAC_SNIES", etiqueta = "Áreas del conocimiento", maxi = 220)
+Saber_Area <- grafica_radar(saber19un, clase = "AREAC_SNIES", etiqueta = "Área SNIES", maxi = 220)
 
 # Salvar htmls
 

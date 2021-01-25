@@ -217,6 +217,25 @@ class: inverse, center, middle
 ## 3.2 Resultados pruebas SaberPRO
 
 ---
+
+### Resultados Generales
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/General.html"></iframe>
+
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. <br>
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/General.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/General.html</a></i></font> 
+
+---
+### Resultados Generales
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Generalz.html"></iframe>
+
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. <br>
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Generalz.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Generalz.html</a></i></font> 
+
+---
 ### Resultados por sedes
 
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sede.html"></iframe>
@@ -226,7 +245,71 @@ class: inverse, center, middle
 <b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sede.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sede.html</a></i></font> 
 
 
+---
+### Resultados por sexo
 
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sexo.html"></iframe>
+
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. <br>
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sexo.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sexo.html</a></i></font> 
+
+---
+### Resultados por tipo de admisión
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Tipo.html"></iframe>
+
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. <br>
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Tipo.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Tipo.html</a></i></font> 
+
+
+---
+### Resultados programa PAES
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Paes.html"></iframe>
+
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. <br>
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Paes.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Paes.html</a></i></font> 
+
+
+---
+### Resultados programa PEAMA
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Peama.html"></iframe>
+
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. <br>
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Peama.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Peama.html</a></i></font> 
+
+
+---
+### Resultados por Puntaje Básico de Matrícula - PBM
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Pbm.html"></iframe>
+
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. <br>
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Pbm.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Pbm.html</a></i></font> 
+
+---
+### Resultados por estrato
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Estrato.html"></iframe>
+
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. <br>
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Estrato.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Estrato.html</a></i></font> 
+
+---
+### Resultados por áreas del conocimiento - SNIES
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Area.html"></iframe>
+
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. <br>
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Area.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Area.html</a></i></font> 
 
 
 ---
