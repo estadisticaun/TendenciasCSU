@@ -208,8 +208,7 @@ class: inverse, center, middle
 ---
 ## Resultados Pruebas SaberPRO 
 
-
-<iframe width="90%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/General.html"></iframe>
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sede.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el ICFES</i></font>
 
