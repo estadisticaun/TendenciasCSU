@@ -92,11 +92,14 @@ grafica_radar <- function(datos, clase, mini = 100, maxi=300, orden = "normal", 
         x = 0.98,
         y = 0.8
       ),
-      legend = list(title = list(text = str_c("Puntajes por ", str_to_lower(clase)), font = list(size = 15)), traceorder = ordenleyendas)
+      legend = list(title = list(text = str_c("Puntajes por ", str_to_lower(clase)), font = list(size = 15)), traceorder = ordenleyendas, orientation = "h", xanchor = "center", x = 0.5)
     )
   
   grafica
 }
+
+
+layout(legend = list())  
 
 #Datos: dataframe.  Sin Default.
 #Clase: Variable a segregar.  Sin Default.
