@@ -156,7 +156,7 @@ class: inverse, center, middle
 
 &lt;iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/S_sexo.html"&gt;&lt;/iframe&gt;
 
-&lt;font size=2&gt;&lt;i&gt;Fuente: Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano&lt;/i&gt;&lt;/font&gt;
+&lt;font size=2&gt;&lt;i&gt;&lt;b&gt;Fuente:&lt;/b&gt; Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano&lt;/i&gt;&lt;/font&gt;
 
 ---
 ### Matriculados
@@ -194,9 +194,16 @@ class: inverse, center, middle
 
 ### Matriculados por sedes
 
+&lt;iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/S_sede.html"&gt;&lt;/iframe&gt;
+
+&lt;font size=2&gt;&lt;i&gt;&lt;b&gt;Fuente:&lt;/b&gt; Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica &lt;/i&gt;&lt;/font&gt;
+
+---
+### Matriculados por sedes
+
 &lt;iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/A_sede.html"&gt;&lt;/iframe&gt;
 
-&lt;font size=2&gt;&lt;i&gt;Fuente: Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica&lt;/i&gt;&lt;/font&gt;
+&lt;font size=2&gt;&lt;i&gt;&lt;b&gt;Fuente:&lt;/b&gt; Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica&lt;/i&gt;&lt;/font&gt;
 
 ---
 
@@ -204,7 +211,8 @@ class: inverse, center, middle
 
 &lt;iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html"&gt;&lt;/iframe&gt;
 
-&lt;font size=2&gt;&lt;i&gt;Fuente: Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano&lt;/i&gt;&lt;/font&gt;
+&lt;font size=2&gt;&lt;i&gt;&lt;b&gt;Fuente:&lt;/b&gt; Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano. &lt;br&gt;
+&lt;b&gt;Disponible en: &lt;/b&gt;&lt;a href=“https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html”&gt;https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html&lt;/a&gt;&lt;/i&gt;&lt;/font&gt; 
 
 
 ---
@@ -217,7 +225,7 @@ class: inverse, center, middle
 
 &lt;iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/S_formacion.html"&gt;&lt;/iframe&gt;
 
-&lt;font size=2&gt;&lt;i&gt;Fuente: Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano&lt;/i&gt;&lt;/font&gt;
+&lt;font size=2&gt;&lt;i&gt;&lt;b&gt;Fuente:&lt;/b&gt; Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano&lt;/i&gt;&lt;/font&gt;
 
 ---
 class: inverse, center, middle
@@ -517,27 +525,29 @@ See the next page for two HTML widgets.
 
 ```r
 library(leaflet)
-leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
+mapa &lt;- leaflet() %&gt;% addTiles() %&gt;% setView(-93.65, 42.0285, zoom = 17)
+mapa
 ```
 
 ```{=html}
-&lt;div id="htmlwidget-b9cf2f9ac5034950fab2" style="width:100%;height:432px;" class="leaflet html-widget"&gt;&lt;/div&gt;
-&lt;script type="application/json" data-for="htmlwidget-b9cf2f9ac5034950fab2"&gt;{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&amp;copy; &lt;a href=\"http://openstreetmap.org\"&gt;OpenStreetMap&lt;\/a&gt; contributors, &lt;a href=\"http://creativecommons.org/licenses/by-sa/2.0/\"&gt;CC-BY-SA&lt;\/a&gt;"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}&lt;/script&gt;
+&lt;div id="htmlwidget-bc0bcd507d5c8b58358f" style="width:100%;height:432px;" class="leaflet html-widget"&gt;&lt;/div&gt;
+&lt;script type="application/json" data-for="htmlwidget-bc0bcd507d5c8b58358f"&gt;{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&amp;copy; &lt;a href=\"http://openstreetmap.org\"&gt;OpenStreetMap&lt;\/a&gt; contributors, &lt;a href=\"http://creativecommons.org/licenses/by-sa/2.0/\"&gt;CC-BY-SA&lt;\/a&gt;"}]}],"setView":[[42.0285,-93.65],17,[]]},"evals":[],"jsHooks":[]}&lt;/script&gt;
 ```
 
 ---
 
 
 ```r
-DT::datatable(
+Tabla &lt;- DT::datatable(
   head(iris, 10),
   fillContainer = FALSE, options = list(pageLength = 8)
 )
+Tabla
 ```
 
 ```{=html}
-&lt;div id="htmlwidget-700251ca85235a3b4056" style="width:100%;height:auto;" class="datatables html-widget"&gt;&lt;/div&gt;
-&lt;script type="application/json" data-for="htmlwidget-700251ca85235a3b4056"&gt;{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"&lt;table class=\"display\"&gt;\n  &lt;thead&gt;\n    &lt;tr&gt;\n      &lt;th&gt; &lt;\/th&gt;\n      &lt;th&gt;Sepal.Length&lt;\/th&gt;\n      &lt;th&gt;Sepal.Width&lt;\/th&gt;\n      &lt;th&gt;Petal.Length&lt;\/th&gt;\n      &lt;th&gt;Petal.Width&lt;\/th&gt;\n      &lt;th&gt;Species&lt;\/th&gt;\n    &lt;\/tr&gt;\n  &lt;\/thead&gt;\n&lt;\/table&gt;","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}&lt;/script&gt;
+&lt;div id="htmlwidget-918371cae9fd72a38343" style="width:100%;height:auto;" class="datatables html-widget"&gt;&lt;/div&gt;
+&lt;script type="application/json" data-for="htmlwidget-918371cae9fd72a38343"&gt;{"x":{"filter":"none","fillContainer":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[5.1,4.9,4.7,4.6,5,5.4,4.6,5,4.4,4.9],[3.5,3,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1],[1.4,1.4,1.3,1.5,1.4,1.7,1.4,1.5,1.4,1.5],[0.2,0.2,0.2,0.2,0.2,0.4,0.3,0.2,0.2,0.1],["setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa","setosa"]],"container":"&lt;table class=\"display\"&gt;\n  &lt;thead&gt;\n    &lt;tr&gt;\n      &lt;th&gt; &lt;\/th&gt;\n      &lt;th&gt;Sepal.Length&lt;\/th&gt;\n      &lt;th&gt;Sepal.Width&lt;\/th&gt;\n      &lt;th&gt;Petal.Length&lt;\/th&gt;\n      &lt;th&gt;Petal.Width&lt;\/th&gt;\n      &lt;th&gt;Species&lt;\/th&gt;\n    &lt;\/tr&gt;\n  &lt;\/thead&gt;\n&lt;\/table&gt;","options":{"pageLength":8,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[8,10,25,50,100]}},"evals":[],"jsHooks":[]}&lt;/script&gt;
 ```
 
 ---
