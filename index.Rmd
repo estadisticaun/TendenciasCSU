@@ -189,7 +189,8 @@ class: inverse, center, middle
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano. <br>
-<b>Disponible en: </b><a href=“https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html”>https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html</a></i></font> 
+<b>Disponible en:</b><a href="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html">https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html</a></i></font> 
+
 
 
 ---
