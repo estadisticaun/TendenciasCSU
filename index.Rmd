@@ -19,31 +19,31 @@ options(htmltools.dir.version = FALSE)
 
 # Objetivo de la presentación
 
-<p align="justify"> Presentar ......... 
+<p align="justify"> Presentar, a través de la diposición de las principales tendencias estadísticas de la Universidad, una aproximación descriptiva al estado actual institucional de aspectos centrales como la evolución histórica de las principales cifras institucionales; la equidad, la inclusión y el bienestar; la calidad de la educación; los productos, resultados e impactos existentes a nivel institucional; el posicionamiento en rankings nacionales e internacionales; la realidad financiera, así como la ejecución alcanzada a través de la implementación del actual Plan Global de Desarrollo. 
 
 ---
 
 ## Consideraciones para el uso adecuado de la presentación
 
-  1.	<p style="font-size:100%  align="justify";> Dar click en la letra H o en el símbolo ? para desplegar las distintas opciones de navegación que ofrece la presentación.</p>
+  1.	<p style="font-size:100%  align="justify";> Dar click en la letra <b>H</b> o en el símbolo <b>?</b> para desplegar las distintas <b>opciones de navegación</b> que ofrece la presentación.</p>
   
-  2.	<p style="font-size:100%  align="justify";> Dar click en la tecla Esc para salir del modo "Pantalla Completa"</p>
+  2.	<p style="font-size:100%  align="justify";> Dar click en la <b>tecla Esc</b> para salir del modo <b>"Pantalla Completa"</b></p>
   
-  3.	<p style="font-size:100%  align="justify";> La opción “Pantalla Completa” presenta problemas en los dispositivos móviles Ipad e Iphone de Apple.</p>
+  3.	<p style="font-size:100%  align="justify";> La opción <b>“Pantalla Completa”</b> presenta <b>problemas</b> en los <b>dispositivos móviles Iphone</b></p>
   
-  4.	<p style="font-size:100%"  align="justify";> Buena parte de los gráficos contenidos en las distintas diapositivas pueden ser “manipulados” al hacer click en las distintas opciones/etiquetas que los acompañan.</p>
+  4.	<p style="font-size:100%"  align="justify";> Buena parte de los gráficos contenidos en las distintas diapositivas pueden ser <b>“manipulados”</b> al hacer <b>click</b> en las distintas <b>opciones/etiquetas</b> que los acompañan.</p>
 
 ---
 
 # Contenido
 
-### [1. Tendencias Generales](https://estadisticaun.github.io/TendenciasPGD2018/#6)
-### [2. Equidad, inclusión y Bienestar](https://estadisticaun.github.io/TendenciasPGD2018/#6)
-### [3. Calidad](https://estadisticaun.github.io/TendenciasPGD2018/#13)
-### [4. Productos, resultados e impactos](https://estadisticaun.github.io/TendenciasPGD2018/#29)
-### [5. Rankings](https://estadisticaun.github.io/TendenciasPGD2018/#33)
-### [6. Aspectos Financieros](https://estadisticaun.github.io/TendenciasPGD2018/#45)
-### [7. Plan Global de Desarrollo](https://estadisticaun.github.io/TendenciasPGD2018/#45)
+### [1. Tendencias Generales](https://estadisticaun.github.io/TendenciasCSU/#6)
+### [2. Equidad, inclusión y Bienestar](https://estadisticaun.github.io/TendenciasCSU/#6)
+### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#13)
+### [4. Productos, resultados e impactos](https://estadisticaun.github.io/TendenciasCSU/#29)
+### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#33)
+### [6. Aspectos Financieros](https://estadisticaun.github.io/TendenciasCSU/#45)
+### [7. Plan Global de Desarrollo](https://estadisticaun.github.io/TendenciasCSU/#45)
 
 
 ---
@@ -57,7 +57,12 @@ class: inverse, center, middle
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/Serie.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font> 
+---
+### Evolución de Aspirantes - nivel de formación
 
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/S_nivel.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
 
 ---
 ### Evolución de Admitidos
@@ -65,6 +70,12 @@ class: inverse, center, middle
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/Serie.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font> 
+---
+### Evolución de Admitidos - nivel de formación
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/S_nivel.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
 
 ---
 ### Evolución de matriculados
@@ -85,6 +96,14 @@ class: inverse, center, middle
 ### Evolución de Graduados
 
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Graduados/Nal/Graduados/Serie.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Secretaría General</i></font>
+
+
+---
+### Evolución de Graduados - nivel de formación
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Graduados/Nal/Graduados/S_nivel.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Secretaría General</i></font>
 
@@ -212,8 +231,30 @@ class: inverse, center, middle
 
 ---
 ### Aspirantes a pregrado por modalidad de inscripción
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AspPre/S_modalidad.html"></iframe>
 
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>
+
+---
+### Aspirantes a pregrado por tipo de inscripción
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AspPre/S_tipo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>
+
+
+
+---
+### Aspirantes a pregrado PEAMA
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AspPre/S_peama.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>
+
+
+---
+### Aspirantes a pregrado PAES
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AspPre/S_paes.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>
 
@@ -244,7 +285,7 @@ class: inverse, center, middle
 
 ---
 
-### Resultados Generales
+### Resultados Generales - año 2019
 
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/General.html"></iframe>
 
