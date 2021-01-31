@@ -17,6 +17,11 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+
+
 # Objetivo de la presentación
 
 <p align="justify"> Presentar, a través de la diposición de las principales tendencias estadísticas de la Universidad, una aproximación descriptiva al estado actual institucional de aspectos centrales como la evolución histórica de las principales cifras institucionales; la equidad, la inclusión y el bienestar; la calidad de la educación; los productos, resultados e impactos existentes a nivel institucional; el posicionamiento en rankings nacionales e internacionales; la realidad financiera, así como la ejecución alcanzada a través de la implementación del actual Plan Global de Desarrollo. 
@@ -32,7 +37,7 @@ options(htmltools.dir.version = FALSE)
   3.	<p style="font-size:100%  align="justify";> La opción <b>“Pantalla Completa”</b> presenta <b>problemas</b> en los <b>dispositivos móviles Iphone</b></p>
   
   4.	<p style="font-size:100%"  align="justify";> Buena parte de los gráficos contenidos en las distintas diapositivas pueden ser <b>“manipulados”</b> al hacer <b>click</b> en las distintas <b>opciones/etiquetas</b> que los acompañan.</p>
-
+  
 ---
 
 # Contenido
@@ -153,6 +158,60 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 ## 2.1 Equidad de género
+
+
+---
+
+.panelset[
+.panel[.panel-name[Aspirantes]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+]
+
+.panel[.panel-name[Admitidos]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
+
+]
+
+.panel[.panel-name[Matriculados]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+
+]
+
+.panel[.panel-name[Graduados]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Graduados/Nal/Graduados/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
+
+]
+
+.panel[.panel-name[Docentes]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
+
+]
+
+.panel[.panel-name[Funcionarios]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Administrativos/Nal/Carrera/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+
+]
+
+]
+
 
 ---
 ### Aspirantes
