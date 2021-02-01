@@ -1,60 +1,38 @@
+# Librerías requeridas
+
 library(readr)
 library(tidyr)
 library(dplyr)
 library(readxl)
-library(tidyr)
-library(dplyr)
 library(plotly)
 library(highcharter)
 library(stringr)
 library(radarchart)
-
-#Carga de datos UN
-P2019_SaberPro_GEN <- read_excel("P2019 SaberPro GEN.xlsx")
-
-#Defino dataframe UN
-saber19un <- as.data.frame(P2019_SaberPro_GEN)
-#Convierto columnas en factores
-cols.to.factor <- sapply( saber19un, function(col) length(unique(col)) < 97 )
-saber19un[cols.to.factor] <- lapply(saber19un[cols.to.factor] , factor)
-str(saber19un)
+library(htmlwidgets)
 
 
-
-#Carga de datos ICFES
-P2019_Icfes <- read_delim("Datos/2019 descargaICFES.csv", ";", escape_double = FALSE, trim_ws = TRUE, locale = locale(encoding = "ISO-8859-1"))
-
-str(P2019_SaberPro_GEN)
-str(P2019_Icfes)
-
-#Defino dataframe ICFES nacional
-saber19icfes <- as.data.frame(P2019_Icfes)
-#Convierto columnas en factores
-cols.to.factor <- sapply(saber19icfes, function(col) length(unique(col)) < 100)
-saber19icfes[cols.to.factor] <- lapply(saber19icfes[cols.to.factor] , factor)
-str(saber19icfes)
-
-#Defino dataframe ICFES UN
-saber19icfesun <- saber19icfes %>% filter( INST_COD_INSTITUCION == 1101 |
-                                           INST_COD_INSTITUCION == 1102 |
-                                           INST_COD_INSTITUCION == 1103 |
-                                           INST_COD_INSTITUCION == 1104)
-cols.to.factor <- sapply(saber19icfesun, function(col) length(unique(col)) < 100)
-saber19icfesun[cols.to.factor] <- lapply(saber19icfesun[cols.to.factor] , factor)
-str(saber19icfesun)
-
-
-# CARGA BASE DE DATOS SABER PRO GENERAL/PAÍS
+# Importar Datos
 
 SBPRO_2019_GEN <- read_delim("Datos/2019 descargaICFES.csv", ";", escape_double = FALSE, trim_ws = TRUE, locale = locale(encoding = "ISO-8859-1"))
 
 #Defino dataframe ICFES nacional
 SBPRO_2019_GEN <- as.data.frame(SBPRO_2019_GEN)
 
+
 # SELECCIONAR VARIABLES DE INTERÉS
 
 SBPRO_2019_GEN <- SBPRO_2019_GEN %>% select(c(INST_COD_INSTITUCION:INST_NOMBRE_INSTITUCION, 
                                               MOD_RAZONA_CUANTITAT_PUNT:PUNT_GLOBAL))
+
+
+# RENOMBRAR VARIABLES DEL ICFES
+
+SBPRO_2019_GEN <- SBPRO_2019_GEN %>% rename(PUNTAJE_GLOBAL = PUNT_GLOBAL,
+                                            `RAZONAMIENTO CUANTITATIVO` = MOD_RAZONA_CUANTITAT_PUNT,
+                                            INGLÉS = MOD_INGLES_PUNT,
+                                            `LECTURA CRÍTICA` = MOD_LECTURA_CRITICA_PUNT,
+                                            `COMPETENCIAS CIUDADANAS` = MOD_COMPETEN_CIUDADA_PUNT,
+                                            `COMUNICACIÓN ESCRITA` = MOD_COMUNI_ESCRITA_PUNT)
 
 
 # CREAR VARIABLES DE INTERÉS
@@ -118,13 +96,7 @@ SBPRO_2019_GEN <- SBPRO_2019_GEN %>%
                           TRUE ~ "Resto IES"))
 
 
-# Distribución puntajes globales, unal y sedes
-
-### crear base de datos 
-
-Unal <- SBPRO_2019_GEN %>% select(PUNT_GLOBAL, Unal) %>% rename(Categoria = Unal)
-sedes <- SBPRO_2019_GEN %>% select(PUNT_GLOBAL, Sedes) %>% 
-  filter(Sedes != "Resto IES") %>% rename(Categoria = Sedes)
-Global <- bind_rows(Unal, sedes)
-
+#Convierto columnas en factores
+cols.to.factor <- sapply(SBPRO_2019_GEN, function(col) length(unique(col)) < 100)
+SBPRO_2019_GEN[cols.to.factor] <- lapply(SBPRO_2019_GEN[cols.to.factor] , factor)
 

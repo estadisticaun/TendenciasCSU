@@ -17,6 +17,11 @@ output:
 options(htmltools.dir.version = FALSE,  htmltools.preserve.raw = FALSE)
 ```
 
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+source("R/SaberGgplot2.R", encoding = 'UTF-8')
+```
+
+
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset()
 ```
@@ -345,11 +350,99 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-## 3.2 Resultados pruebas SaberPRO
+
+## 3.2 Resultados pruebas SaberPRO 2019
+
+
+---
+### Competencias genéricas evaluadas en las pruebas Saber Pro 2019
+
+![](Imagenes/SaberPRO.png)
+
+---
+#### Resultados Generales SaberPRO 2019
+
+.panelset[
+
+.panel[.panel-name[País]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/GeneralPais.html"></iframe>
+
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. 
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/GeneralPais.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Sede.html</a></i></font> 
+
+]
+
+
+.panel[.panel-name[UNAL]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/GeneralUnal.html"></iframe>
+
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES.
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/GeneralPais.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/GeneralUnal.html</a></i></font> 
+
+]
+
+.panel[.panel-name[G2]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Grupo2.html"></iframe>
+
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. 
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/GeneralPais.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Grupo2.html</a></i></font> 
+
+]
+
+
+.panel[.panel-name[G12]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center',out.height='465'}
+library(ggplot2)
+library(forcats)
+ggplot(data = SBPRO_2019_GEN, aes(y = PUNTAJE_GLOBAL, x = fct_reorder(G12, PUNTAJE_GLOBAL, .fun = median))) + 
+  geom_boxplot(outlier.color = "green", fill = "gray") +
+  ylim(0, 300) + geom_hline(yintercept = 180, col = "red", size = 1) +
+  geom_hline(yintercept = c(0, 300), col = "blue", size = 1, linetype="dashed") +
+  ggtitle("Distribución puntajes globales SaberPRO", subtitle = "Principales universidades del país\n")+
+  ylab("\n Puntaje Promedio Global Saber PRO 2019")+
+  xlab("Universidades")+coord_flip() +
+  theme(axis.text.y = element_text(size = 13, face = "bold"),
+        axis.text.x = element_text(size = 13, colour = "blue"),
+  axis.title = element_text(face="bold", color="black", size=16))
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. 
+
+]
+
+.panel[.panel-name[G12]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Grupo12.html"></iframe>
+
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. 
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/GeneralPais.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Grupo12.html</a></i></font> 
+
+]
+
+
+.panel[.panel-name[G15]
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Grupo15.html"></iframe>
+
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. 
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/GeneralPais.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Grupo15.html</a></i></font> 
+
+]
+
+]
 
 ---
 
-### Resultados Generales - año 2019
+### Resultados Generales UNAL - año 2019
 
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/SaberPro/General.html"></iframe>
 
