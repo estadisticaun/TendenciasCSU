@@ -14,11 +14,17 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
+options(htmltools.dir.version = FALSE,  htmltools.preserve.raw = FALSE)
 ```
 
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset()
+```
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logotipo_de_la_Universidad_Nacional_de_Colombia.svg/1200px-Logotipo_de_la_Universidad_Nacional_de_Colombia.svg.png", width = "85px",
+  height = "103px")
 ```
 
 
@@ -211,7 +217,6 @@ class: inverse, center, middle
 ]
 
 ]
-
 
 ---
 ### Aspirantes
