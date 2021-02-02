@@ -115,8 +115,8 @@ grafica_radar <- function(datos, clase, etiqueta, mini = 100, maxi=300, orden = 
 
 # Gráficos de interes
 
-Saber_Global<- grafica_radar(saber19un, clase = "GLOBAL", etiqueta = " ")
-Saber_GlobalZ<- grafica_radar(saber19un, clase = "GLOBAL", etiqueta = " ", maxi = 200)
+Saber_Global <- grafica_radar(saber19un, clase = "GLOBAL", etiqueta = " ")
+Saber_GlobalZ <- grafica_radar(saber19un, clase = "GLOBAL", etiqueta = " ", maxi = 200)
 Saber_Sede <- grafica_radar(saber19un, clase = "SEDE_NOMBRE_ADM", etiqueta = "Sede", maxi = 200)
 Saber_Sexo <- grafica_radar(saber19un, clase = "SEXO", etiqueta = "Sexo", maxi = 220)
 Saber_Tipo <- grafica_radar(saber19un, clase = "TIPO_ADM", etiqueta = "Tipo de admisión", maxi = 220)
@@ -138,9 +138,6 @@ Salvar(Saber_PEAMA, "SaberPro", "Peama.html")
 Salvar(Saber_PBM, "SaberPro", "Pbm.html")
 Salvar(Saber_Estrato, "SaberPro", "Estrato.html")
 Salvar(Saber_Area, "SaberPro", "Area.html")
-
-
-
 
 
 # DATOS PAIS
@@ -169,6 +166,10 @@ SBPRO_2019_GEN <- SBPRO_2019_GEN %>% rename(PUNTAJE_GLOBAL = PUNT_GLOBAL,
 
 # CREAR VARIABLES DE INTERÉS
 
+# Crear Variable General
+
+SBPRO_2019_GEN <- SBPRO_2019_GEN %>% mutate(SaberPais = "Resultados SaberPRO2019 País")
+  
 # Crear Variable Unal
 
 SBPRO_2019_GEN <- SBPRO_2019_GEN %>% 
@@ -189,6 +190,13 @@ SBPRO_2019_GEN <- SBPRO_2019_GEN %>%
                             .$INST_COD_INSTITUCION == 9920 ~ "UN-Tumaco",
                             TRUE ~ "Resto IES"))
 
+
+# Crear G2
+
+SBPRO_2019_GEN <- SBPRO_2019_GEN %>% 
+  mutate(G2 =  case_when(.$INST_COD_INSTITUCION == 1813  ~ "U. de los Andes",
+                         .$INST_COD_INSTITUCION %in% c(1101, 1102, 1103, 1104)  ~ "U. Nacional",
+                          TRUE ~ "Resto IES"))
 
 # Crear G12
 
@@ -231,26 +239,22 @@ SBPRO_2019_GEN <- SBPRO_2019_GEN %>%
 #Convierto columnas en factores
 cols.to.factor <- sapply(SBPRO_2019_GEN, function(col) length(unique(col)) < 100)
 SBPRO_2019_GEN[cols.to.factor] <- lapply(SBPRO_2019_GEN[cols.to.factor] , factor)
-str(SBPRO_2019_GEN)
 
 
 # Gráficos de interes
 
-Saber_Global_Pais<- grafica_radar(SBPRO_2019_GEN, clase = "G15", etiqueta = " ")
+Saber_Global_Pais<- grafica_radar(SBPRO_2019_GEN, clase = "SaberPais", etiqueta = " ", mini = 0)
+Saber_Global_Unal<- grafica_radar(SBPRO_2019_GEN, clase = "Unal", etiqueta = " ", mini = 0)
+Saber_Global_G2<- grafica_radar(SBPRO_2019_GEN, clase = "G2", etiqueta = " ", mini = 100, maxi = 220)
+Saber_Global_G12<- grafica_radar(SBPRO_2019_GEN, clase = "G12", etiqueta = " ", mini = 100, maxi = 220)
+Saber_Global_G15<- grafica_radar(SBPRO_2019_GEN, clase = "G15", etiqueta = " ", mini = 100, maxi = 220)
 
 
-library(ggplot2)
-library(forcats)
-ggplot(data = SBPRO_2019_GEN, aes(y = PUNTAJE_GLOBAL, x = fct_reorder(G12, PUNTAJE_GLOBAL, .fun = median))) + 
-  geom_boxplot(outlier.color = "green", fill = "gray") +
-  ylim(0, 300) + geom_hline(yintercept = 180, col = "red", size = 1) +
-  geom_hline(yintercept = c(0, 300), col = "blue", size = 1, linetype="dashed") +
-  ylab("\n Puntaje Promedio Global Saber PRO 2019")+
-  xlab("Universidades")+coord_flip()+
-  theme(axis.text.y = element_text(size = 13, face = "bold"),
-        axis.text.x = element_text(size = 13, colour = "blue"),
-        axis.title = element_text(face="bold", color="black", size=16))
+# Salvar htmls
 
-
-head(SBPRO_2019_GEN)
+Salvar(Saber_Global_Pais, "SaberPro", "GeneralPais.html")
+Salvar(Saber_Global_Unal, "SaberPro", "GeneralUnal.html")
+Salvar(Saber_Global_G2, "SaberPro", "Grupo2.html")
+Salvar(Saber_Global_G12, "SaberPro", "Grupo12.html")
+Salvar(Saber_Global_G15, "SaberPro", "Grupo15.html")
 
