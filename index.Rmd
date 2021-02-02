@@ -652,6 +652,102 @@ class: inverse, center, middle
 
 # 5. Rankings
 
+---
+### La UNAL en el Ranking QS
+##### Indicadores que mide el ranking QS Mundo
+
+![](Imagenes/Ranking1.png)
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística</i></font>
+
+
+---
+### La UNAL en el Ranking QS
+##### Puntaje total y puesto en el mundo
+
+
+![](Imagenes/Ranking2.png)
+
+<font size=2><i><b>Fuente: </b><a href="https://www.topuniversities.com/
+">https://www.topuniversities.com/</a></i></font>
+
+---
+### La UNAL en el Ranking QS
+##### Puesto en el ranking - evolución
+
+![](Imagenes/Ranking3.png)
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística</i></font>
+
+
+---
+### La UNAL en el Ranking QS
+##### Puntaje total y puesto por indicador en el mundo
+
+![](Imagenes/Ranking4.png)
+
+<font size=2><i><b>Fuente: </b><a href="https://www.topuniversities.com/
+">https://www.topuniversities.com/</a></i></font>
+
+
+---
+### Universidad Nacional (UNAL) vs Universidad de Buenos Aires (UBA) <br> en el ranking QS
+##### Evolución por indicadores
+
+![](Imagenes/Ranking5.png)
+
+<font size=1><i><b>Fuente:</b> QS Analytics </i></font>
+
+
+---
+### UNAL vs UBA en el ranking QS
+##### Nominaciones en reputación académica
+
+![](Imagenes/Ranking6.png)
+
+<font size=1><i><b>Fuente:</b> QS Analytics </i></font>
+
+---
+### UNAL vs UBA en el ranking QS
+##### Nominaciones en reputación del empleador
+
+![](Imagenes/Ranking7.png)
+<font size=1><i><b>Fuente:</b> QS Analytics </i></font>
+
+---
+### UNAL vs UBA en el ranking QS
+##### Resultados en investigación
+
+![](Imagenes/Ranking8.png)
+
+<font size=1><i><b>Fuente:</b> QS Analytics </i></font>
+
+---
+### Razón estudiantes por profesor UNAL - ranking QS
+##### Puntaje y comparación con varias universidades
+
+![](Imagenes/Ranking9.png)
+
+<font size=2><i><b>Fuente: </b><a href="https://www.topuniversities.com/
+">https://www.topuniversities.com/</a></i></font>
+
+---
+### Porcentaje docentes extranjeros en planta UNAL - ranking QS
+##### Puntaje y comparación con varias universidades
+
+![](Imagenes/Ranking10.png)
+
+<font size=2><i><b>Fuente: </b><a href="https://www.topuniversities.com/
+">https://www.topuniversities.com/</a></i></font>
+
+---
+### Porcentaje estudiantes extranjeros en la UNAL - ranking QS
+##### Puntaje y comparación con varias universidades
+
+![](Imagenes/Ranking11.png)
+
+<font size=2><i><b>Fuente: </b><a href="https://www.topuniversities.com/
+">https://www.topuniversities.com/</a></i></font>
 
 ---
 class: inverse, center, middle
