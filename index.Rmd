@@ -766,9 +766,29 @@ class: inverse, middle, center
 ---
 #### <FONT COLOR="white">Grupos de investigación</FONT>
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', ,out.height='430'}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='430'}
 Grupos_pais
 ```
 
 <font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría de Investigación</i></font>
 
+---
+#### Distribución grupos de investigación categorizados UNAL <br> por categoría y sedes, año 2020. 
+
+<!-- ![](Imagenes/Inv1.png) -->
+
+<center><img src="Imagenes/Inv1.png" alt="Grupos por sede" class="center" style="width:800px;height:500px;"></center>
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+
+<!-- ### Conformación de grupos categorizados de investigación UNAL <br> de acuerdo a las sedes de base de sus integrantes -->
+
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+Grupos_Inter
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
