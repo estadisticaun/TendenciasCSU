@@ -764,6 +764,24 @@ class: inverse, middle, center
 # 7. Investigación
 
 ---
+### Total grupos de investigación UNAL por tipología <br> Año 2020
+
+
+.pull-left[
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='430'}
+Grupos_UN
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+]
+.pull-right[
+* En la Universidad existe un total de 953 grupos de investigación de los cuales el 61% está categorizado en Minciencias, el 35% se encuentra registrado y el 4% son reconocidos.
+
+* El 68% (647) de los grupos de investigación pertenece a la Sede Bogotá, el 19% (180) a la Sede Medellín, el 7% (66) a la Sede Manizales, el 5% a la Sede Palmira y el 1% (14) a las Sedes de Presencia Nacional incluida La Paz (Amazonía 8, Caribe 4, Orinoquía 1 y La Paz 1).
+]
+
+---
 #### <FONT COLOR="white">Grupos de investigación</FONT>
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='430'}
@@ -783,8 +801,6 @@ Grupos_pais
 
 ---
 
-<!-- ### Conformación de grupos categorizados de investigación UNAL <br> de acuerdo a las sedes de base de sus integrantes -->
-
 #### <FONT COLOR="white">Grupos de investigación</FONT>
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
@@ -792,3 +808,34 @@ Grupos_Inter
 ```
 
 <font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+Grupos_OCDEP
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+###  Investigadores de la Universidad, categorizados por Colciencias 2020
+
+<center><img src="Imagenes/Inv2.png" alt="Grupos por sede" class="center" style="width:800px;height:150px;"></center>
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+* La Universidad congrega el 9% de los investigadores del país reconocidos por Minciencias.
+
+* El 38% de los docentes de carrera de la Universidad es investigador, según clasificación de Minciencias.
+
+* El 1% (12) de los investigadores de la Universidad está clasificado como Emerito, el 40% (472) como Sénior, el 34% (408) como Junior y el 25% (300) como Asociado.
+
+* El número de estudiantes de la Universidad clasificados como investigadores ante Minciencias es relativamente bajo.
+
+* La Sede Bogotá congrega el 63% (752) de los investigadores; las demás sedes, el 37% (440).
+
+
+
+

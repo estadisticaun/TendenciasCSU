@@ -21,6 +21,34 @@ Salvar <- function(objeto, ruta, nombre){
   
 }
 
+
+
+# Grupos UNAL ----
+
+# Grupos de Investigación ----
+
+Grupos_UNAL <- tibble(Variable = "GRUPOS", 
+                         YEAR = rep(2020, times = 3),
+                         SEMESTRE = rep(1, length(YEAR)),
+                         Clase = c("Categorizados", "Reconocidos", "Registrados"),
+                         Total = c(578, 40, 335))
+
+col <-   c("#f15a24", "#0071bc", "#8cc63f") 
+Grupos_UN <- Plot.Barras(datos =  Grupos_UNAL,
+             categoria = "GRUPOS",
+             ano = "2020",
+             periodo = ,  
+             vertical  = T,
+             colores   = col,
+             libreria  = "plotly",
+             labelEje  = "Número de grupos")
+
+
+# Salvar htmls
+
+Salvar(Grupos_UN, "Investigacion", "GI_unal.html")
+
+
 # Grupos de Investigación ----
 
 Grupos_pais <- tibble(Variable = "GRUPOSP", 
@@ -65,4 +93,35 @@ Grupos_Inter <- Plot.Torta(datos = Grupos_InterUN, categoria = "GRUPOSINTERUN",
                            periodo = 1, colores = col,
                            titulo    = "Grupos categorizados de investigación UNAL de acuerdo a las <br> sedes de base de sus integrantes",
                            estilo    = list(hc.Tema = 4, hc.Credits = "Año 2020"))
-                 
+
+Salvar(Grupos_Inter, "Investigacion", "GI_inter.html")
+
+# Grupos de investigación Áreas OCDE
+
+Grupos_OCDE <- tibble(Variable = "GRUPOSOCDE", 
+                         YEAR = rep(2020, times = 6),
+                         SEMESTRE = rep(1, length(YEAR)),
+                         Clase = c("Ciencias naturales", "Ingeniería y tecnología", "Ciencias sociales", 
+                                   "Ciencias médicas y de la salud", "Ciencias agrícolas", "Humanidades"),
+                         Total = c(194, 110, 93, 92, 46, 43))
+
+# Plot
+
+col <-   c( "#6d6666",  # gris
+            "#fbb03b", # amarillo
+            "#29abe2", # azul claro
+            "#c1272d",  # rojo
+            "#8cc63f",  # verde
+            "#93278f") # morado
+
+Grupos_OCDEP <- Plot.Barras(datos = Grupos_OCDE,
+               categoria = "GRUPOSOCDE",
+               ano       = 2020,
+               periodo   = ,
+               vertical  = F,
+               colores   = col,
+               libreria  = "highcharter",
+               titulo    = "Distribución de grupos categorizados de investigación UNAL <br> por áreas de la OCDE",
+              estilo    = list(hc.Tema = 4, hc.Credits = "Año 2020"))
+
+Salvar(Grupos_OCDEP, "Investigacion", "GI_ocde.html")                 
