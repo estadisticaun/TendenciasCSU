@@ -73,11 +73,33 @@ class: inverse, center, middle
 # 1. Tendencias Generales
 
 ---
+### Evolución de programas académicos
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Programas.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría Académica</i></font> 
+
+---
+### Evolución de programas académicos por modalidad de formación
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Modalidad.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría Académica</i></font> 
+
+---
+### Evolución de programas académicos de postgrado
+
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Postgrado.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría Académica</i></font> 
+
+---
 ### Evolución de Aspirantes
 
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/Serie.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font> 
+
 ---
 ### Evolución de Aspirantes - nivel de formación
 
@@ -204,6 +226,20 @@ class: inverse, center, middle
 
 ]
 
+
+.panel[.panel-name[Pregrado]
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Pregrado/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font> 
+]
+
+.panel[.panel-name[Postgrado]
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Postgrado/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font> 
+]
+
+
 .panel[.panel-name[Graduados]
 
 <iframe width="100%" height="410px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Graduados/Nal/Graduados/S_sexo.html"></iframe>
@@ -220,6 +256,12 @@ class: inverse, center, middle
 
 ]
 
+.panel[.panel-name[Investigador]
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/InvSexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría de Investigación</i></font> 
+]
+
 .panel[.panel-name[Funcionarios]
 
 <iframe width="100%" height="410px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Administrativos/Nal/Carrera/S_sexo.html"></iframe>
@@ -228,50 +270,86 @@ class: inverse, center, middle
 
 ]
 
+.panel[.panel-name[NNacional]
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Administrativos/NNal/Carrera/S_sexo.html"></iframe>
+
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+]
 ]
 
----
-### Aspirantes
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/S_sexo.html"></iframe>
+<!-- --- -->
+<!-- ### Aspirantes -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/S_sexo.html"></iframe> -->
 
----
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>  -->
 
-### Admitidos
+<!-- --- -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/S_sexo.html"></iframe>
+<!-- ### Admitidos -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/S_sexo.html"></iframe> -->
 
----
-### Matriculados
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/S_sexo.html"></iframe>
+<!-- --- -->
+<!-- ### Matriculados -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/S_sexo.html"></iframe> -->
 
----
-### Graduados
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>  -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Graduados/Nal/Graduados/S_sexo.html"></iframe>
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+<!-- --- -->
+<!-- ### Pregrado -->
 
----
-### Docentes de Carrera
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Pregrado/S_sexo.html"></iframe> -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/S_sexo.html"></iframe>
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>  -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+<!-- --- -->
+<!-- ### Postgrado -->
 
----
-### Funcionarios de carrera
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Postgrado/S_sexo.html"></iframe> -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Administrativos/Nal/Carrera/S_sexo.html"></iframe>
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>  -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font> 
+<!-- --- -->
+<!-- ### Graduados -->
+
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Graduados/Nal/Graduados/S_sexo.html"></iframe> -->
+
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>  -->
+
+<!-- --- -->
+<!-- ### Docentes de Carrera -->
+
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Docentes/Nal/Carrera/S_sexo.html"></iframe> -->
+
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>  -->
+
+
+<!-- --- -->
+<!-- ### Docentes investigadores -->
+
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/InvSexo.html"></iframe> -->
+
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría de Investigación</i></font>  -->
+
+<!-- --- -->
+<!-- ### Funcionarios de carrera -->
+
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Administrativos/Nal/Carrera/S_sexo.html"></iframe> -->
+
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>  -->
+
+<!-- --- -->
+<!-- ### Funcionarios Nivel Nacional -->
+
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Administrativos/NNal/Carrera/S_sexo.html"></iframe> -->
+
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>  -->
 
 ---
 class: inverse, center, middle
@@ -753,6 +831,29 @@ class: inverse, center, middle
 <font size=2><i><b>Fuente: </b><a href="https://www.topuniversities.com/
 ">https://www.topuniversities.com/</a></i></font>
 
+
+---
+## Para tener en cuenta
+
+--
+
+- En 10 años, la UNAL ascendió 192 puestos, ubicándose dentro del top de las 300 mejores universidades del mundo según el ranking QS, ocupando el puesto 259.
+
+--
+
+- La principal fortaleza de la UNAL en los indicadores que mide el ranking, está asociada a las encuestas reputacionales tanto de académicos como de empleadores.
+
+--
+
+- Sobresale el posicionamiento en el indicador de Reputación de empleadores, mejorando 95 lugares en su desempeño desde 2013, ubicándose en el listado mundial en el puesto 37, reflejo de la calidad y el prestigio de sus egresados.
+
+--
+
+- Así mismo, la reputación académica es un indicador fuerte para la UNAL, ubicándose en el puesto 114 en el mundo, mejorando 44 lugares desde 2013.
+
+--
+
+- El gran desafío para la UNAL se presenta en los indicadores de la relación del número de estudiantes por profesor, el número de citas por artículo publicado, el número de profesores extranjeros en planta y el mayor reto está en el número de estudiantes extranjeros matriculados en la oferta de programas. 
 ---
 class: inverse, center, middle
 
@@ -836,6 +937,47 @@ Grupos_OCDEP
 
 * La Sede Bogotá congrega el 63% (752) de los investigadores; las demás sedes, el 37% (440).
 
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
 
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+Revistas
+```
 
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
 
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+RevistasClaU
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+ComiteP
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+ComiteP
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+ComitePT 
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
