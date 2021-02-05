@@ -33,9 +33,18 @@ xaringanExtra::use_panelset()
 
 ```{r xaringan-logo, echo=FALSE}
 xaringanExtra::use_logo(
-  image_url = "https://www.cemarin.org/wp-content/uploads/2017/09/PNG_LOGOSIMBOLO-CENTRAL-2-COLORES-VERDE-Y-GRIS-02-268x300.png", width = "85px",
-  height = "103px")
+  image_url = "https://raw.githubusercontent.com/estadisticaun/TendenciasCSU/master/Imagenes/LOGOSIMBOLO%20LATERAL.png", width = "115px",
+  height = "133px")
 ```
+
+
+
+<!-- ```{r xaringan-logo, echo=FALSE} -->
+<!-- xaringanExtra::use_logo( -->
+<!--   image_url = "https://www.cemarin.org/wp-content/uploads/2017/09/PNG_LOGOSIMBOLO-CENTRAL-2-COLORES-VERDE-Y-GRIS-02-268x300.png", width = "85px", -->
+<!--   height = "103px") -->
+<!-- ``` -->
+
 
 <!-- ```{r xaringan-logo, echo=FALSE} -->
 <!--  xaringanExtra::use_logo( -->
