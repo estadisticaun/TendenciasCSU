@@ -36,7 +36,7 @@ Salvar <- function(objeto, ruta, nombre){
 
 # Función para radares
 
-grafica_radar <- function(datos, clase, etiqueta, mini = 100, maxi=300, orden = "normal", opacity = 1, llenar = T)
+grafica_radar <- function(datos, clase, etiqueta, mini = 100, maxi=300, orden = "normal", opacity = 1, llenar = 1, leyendav = F, colores = c())
 {
   pruebaspunUN <- c("PUNTAJE_GLOBAL",
                     "RAZONAMIENTO CUANTITATIVO",
@@ -45,12 +45,24 @@ grafica_radar <- function(datos, clase, etiqueta, mini = 100, maxi=300, orden = 
                     "COMPETENCIAS CIUDADANAS", 
                     "COMUNICACIÓN ESCRITA")
   
-  if(llenar == T){
+  if(llenar == 1){
     fillG = "tonext"
   }
-  else{
+  else if(llenar == 2){
+    fillG = "toself"
+  }
+  else if (llenar == 0) {
     fillG = "none"
   }
+  
+  
+  if(leyendav){
+    ori = "v"
+  }
+  else{
+    ori = "h"
+  }
+  
   
   colnames(datos)[colnames(datos) == clase] <- "claseG"
   
@@ -60,7 +72,7 @@ grafica_radar <- function(datos, clase, etiqueta, mini = 100, maxi=300, orden = 
   grafica <- plot_ly(
     type = 'scatterpolar',
     fill = fillG,
-    opacity = opacity,
+    #opacity = opacity,
     mode = "lines+markers"
   )
   
@@ -73,15 +85,42 @@ grafica_radar <- function(datos, clase, etiqueta, mini = 100, maxi=300, orden = 
     ordenleyendas = "reversed"
   }
   
-  for(i in ordenG){
-    
-    grafica <- grafica %>%
-      add_trace(
-        r = matrix(datosgrafica[i,-c(1, ncol(datosgrafica))]),
-        theta = pruebaspunUN,
-        name = datosgrafica[i,1],
-        opacity = opacity
-      )
+  if(is.null(colores))
+  {
+    for(i in ordenG){
+      
+      grafica <- grafica %>%
+        add_trace(
+          r = matrix(datosgrafica[i,-c(1, ncol(datosgrafica))]),
+          theta = pruebaspunUN,
+          name = datosgrafica[i,1],
+          opacity = opacity,
+          hoverinfo = "text",
+          text = str_c(datosgrafica[i,1], '<br> Promedio: ', matrix(round(datosgrafica[i,-c(1, ncol(datosgrafica))], 2)), '<br> N: ', matrix(datosgrafica[i, ncol(datosgrafica)]))
+        )
+    }
+  }
+  else{
+    for(i in ordenG){
+      grafica <- grafica %>%
+        add_trace(
+          r = matrix(datosgrafica[i,-c(1, ncol(datosgrafica))]),
+          theta = pruebaspunUN,
+          name = datosgrafica[i,1],
+          opacity = opacity,
+          line = list(
+            color = colores[i]
+          ),
+          marker = list(
+            color = colores[i]
+          ),
+          fillcolor = list(
+            color = colores[i]
+          ),
+          hoverinfo = "text",
+          text = str_c(datosgrafica[i,1], '<br> Promedio: ', matrix(round(datosgrafica[i,-c(1, ncol(datosgrafica))], 2)), '<br> N: ', matrix(datosgrafica[i, ncol(datosgrafica)]))
+        )
+    }
   }
   
   grafica <- grafica %>%
@@ -97,7 +136,7 @@ grafica_radar <- function(datos, clase, etiqueta, mini = 100, maxi=300, orden = 
         x = 0.98,
         y = 0.8
       ),
-      legend = list(title = list(text = etiqueta, font = list(size = 15)), traceorder = ordenleyendas, orientation = "h", xanchor = "center", x = 0)
+      legend = list(title = list(text = etiqueta, font = list(size = 15)), traceorder = ordenleyendas, orientation = ori)
     )
   
   grafica
@@ -114,6 +153,7 @@ grafica_radar <- function(datos, clase, etiqueta, mini = 100, maxi=300, orden = 
 #         False si no colorea la figura. 
 
 # Gráficos de interes
+
 
 Saber_Global <- grafica_radar(saber19un, clase = "GLOBAL", etiqueta = " ")
 Saber_GlobalZ <- grafica_radar(saber19un, clase = "GLOBAL", etiqueta = " ", maxi = 200)

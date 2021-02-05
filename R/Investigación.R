@@ -121,6 +121,7 @@ Grupos_OCDEP <- Plot.Barras(datos = Grupos_OCDE,
                vertical  = F,
                colores   = col,
                libreria  = "highcharter",
+               labelEje  = "Número de grupos",
                titulo    = "Distribución de grupos categorizados de investigación UNAL <br> por áreas de la OCDE",
               estilo    = list(hc.Tema = 4, hc.Credits = "Año 2020"))
 
