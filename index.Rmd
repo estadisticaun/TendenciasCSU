@@ -1,6 +1,6 @@
 ---
 title: "TENDENCIAS UNAL"
-subtitle: "Consejo superior Universitario - CSU"
+subtitle: "Consejo Superior Universitario - CSU"
 author: "Dirección Nacional de Planeación y Estadística"
 institute: "Universidad Nacional de Colombia"
 date: "`r Sys.Date()`"
@@ -480,14 +480,14 @@ class: inverse, center, middle
 ---
 ### Beneficiarios áreas de Bienestar Universitario
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Investigacion/Bienestar.html"></iframe>
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Bienestar.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Bienestar Universitario</i></font>
 
 ---
 ### Beneficiarios programas área de Gestión y Fomento Socioeconómica 
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Investigacion/Economica.html"></iframe>
+<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Economica.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Bienestar Universitario</i></font>
 
