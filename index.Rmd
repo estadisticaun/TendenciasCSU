@@ -74,14 +74,24 @@ xaringanExtra::use_logo(
 
 # Contenido
 
-### [1. Tendencias Generales](https://estadisticaun.github.io/TendenciasCSU/#6)
-### [2. Equidad, inclusión y Bienestar](https://estadisticaun.github.io/TendenciasCSU/#6)
-### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#13)
-### [4. Productos, resultados e impactos](https://estadisticaun.github.io/TendenciasCSU/#29)
-### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#33)
-### [6. Aspectos Financieros](https://estadisticaun.github.io/TendenciasCSU/#45)
-### [7. Plan Global de Desarrollo](https://estadisticaun.github.io/TendenciasCSU/#45)
+.pull-left[
 
+### [1. Tendencias Generales](https://estadisticaun.github.io/TendenciasCSU/#6)
+### [2. Equidad, inclusión y bienestar](https://estadisticaun.github.io/TendenciasCSU/#6)
+#### [2.1 Equidad de género](https://estadisticaun.github.io/TendenciasCSU/#6)
+#### [2.2 Equidad territorial](https://estadisticaun.github.io/TendenciasCSU/#6)
+#### [2.3 Inclusión](https://estadisticaun.github.io/TendenciasCSU/#6)
+#### [2.4 Bienestar Universitario](https://estadisticaun.github.io/TendenciasCSU/#6)
+
+]
+
+.pull-right[
+### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#13)
+#### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#13)
+#### [3.2 Resultados SaberPRO](https://estadisticaun.github.io/TendenciasCSU/#13)
+### [4. Investigación](https://estadisticaun.github.io/TendenciasCSU/#29)
+### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#33)
+]
 
 ---
 class: inverse, center, middle
@@ -368,6 +378,40 @@ class: inverse, center, middle
 <!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano</i></font>  -->
 
 ---
+## Para tener en cuenta
+
+--
+
+- La población de la Universidad Nacional de Colombia que presenta una mayor desigualdad entre hombres y mujeres es la de Docentes de Carrera. Del total de docentes de carrera, el 70% (2178) son hombres y el 30% (934) mujeres.
+
+--
+
+- La desigualdad observada entre hombres y mujeres en la planta docente es equivalente a la observada en los docentes clasificados como investigadores en Minciencias. Para el año 2020, de los 1192 docentes investigadores que tenía la Universidad, el 69% (827) son hombres y el 31% mujeres (365).
+
+--
+
+- La población de la Universidad Nacional de Colombia que presenta una menor desigualdad entre hombres y mujeres es la de Funcionarios Administrativos. Del total de funcionarios de carrera, el 49% (1427) son hombres y el 30% (1498) mujeres.
+
+--
+
+- El 63% (230) de los funcionarios que conforman el nivel nacional son mujeres y el 37% (133) hombres.
+
+---
+## Para tener en cuenta
+
+--
+
+- Históricamente, el 50% de los aspirantes a la Universidad son hombres y el 50% mujeres. No obstante, históricamente la cantidad de hombres admitidos supera entre un 10% y 12% a la de mujeres. Para el periodo 2020-2, el 60% (4567) de los admitidos fueron hombres y el 60% (3088) mujeres.
+
+--
+
+- En la actualidad, el 62% (34053) de los estudiantes matriculados en la Universidad son hombres y el 38% mujeres (21071). Esta desigualdad se reduce levemente en la población de matriculados en postgrado en donde el 58% (4542) son hombres y el 42% (3303) mujeres.
+
+--
+
+- El 61% (2307) de los estudiantes graduados de la Universidad son hombres y el 39% (1506) mujeres. Aunque hace 10 años la diferencia era menor entre hombres y mujeres graduadas, durante los últimos años esta se ha venido ampliando en favor de los hombres (56% vs 44% en 2009 - 61% vs 39% en 2020).
+
+---
 class: inverse, center, middle
 ## 2.2 Equidad territorial
 
@@ -480,14 +524,14 @@ class: inverse, center, middle
 ---
 ### Beneficiarios áreas de Bienestar Universitario
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Bienestar.html"></iframe>
+<iframe width="100%" height="490px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Bienestar.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Bienestar Universitario</i></font>
 
 ---
 ### Beneficiarios programas área de Gestión y Fomento Socioeconómica 
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Economica.html"></iframe>
+<iframe width="100%" height="490px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Economica.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Bienestar Universitario</i></font>
 
@@ -804,7 +848,158 @@ Saber_Area
 ---
 class: inverse, center, middle
 
-# 4. Productos, resultados e impactos
+---
+class: inverse, center, middle
+
+# 4. Investigación
+
+---
+### Total grupos de investigación UNAL por tipología <br> Año 2020
+
+
+.pull-left[
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='430'}
+Grupos_UN
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+]
+.pull-right[
+* En la Universidad existe un total de 953 grupos de investigación de los cuales el 61% está categorizado en Minciencias, el 35% se encuentra registrado y el 4% son reconocidos.
+
+* El 68% (647) de los grupos de investigación pertenece a la Sede Bogotá, el 19% (180) a la Sede Medellín, el 7% (66) a la Sede Manizales, el 5% a la Sede Palmira y el 1% (14) a las Sedes de Presencia Nacional incluida La Paz (Amazonía 8, Caribe 4, Orinoquía 1 y La Paz 1).
+]
+
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='430'}
+Grupos_pais
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría de Investigación</i></font>
+
+---
+#### Distribución grupos de investigación categorizados UNAL <br> por categoría y sedes, año 2020. 
+
+<!-- ![](Imagenes/Inv1.png) -->
+
+<center><img src="Imagenes/Inv1.png" alt="Grupos por sede" class="center" style="width:800px;height:500px;"></center>
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+Grupos_Inter
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+Grupos_OCDEP
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+####  Investigadores de la Universidad, categorizados por Colciencias 2020
+
+<center><img src="Imagenes/Inv2.png" alt="Grupos por sede" class="center" style="width:800px;height:150px;"></center>
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+* La Universidad congrega el 9% de los investigadores del país reconocidos por Minciencias.
+
+* El 38% de los docentes de carrera de la Universidad es investigador, según clasificación de Minciencias.
+
+* El 1% (12) de los investigadores de la Universidad está clasificado como Emerito, el 40% (472) como Sénior, el 34% (408) como Junior y el 25% (300) como Asociado.
+
+* El número de estudiantes de la Universidad clasificados como investigadores ante Minciencias es relativamente bajo.
+
+* La Sede Bogotá congrega el 63% (752) de los investigadores; las demás sedes, el 37% (440).
+
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+Revistas
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+RevistasClaU
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+ComiteP
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+ComiteP
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+#### <FONT COLOR="white">Grupos de investigación</FONT>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
+ComitePT 
+```
+
+<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
+
+---
+## Para tener en cuenta
+
+--
+
+- El 10% (578 de 5353) de los grupos de investigación de investigación categorizados en SCIENTI pertenecen a la Universidad Nacional de Colombia.
+
+--
+
+- El 81% de los grupos de investigación de la Universidad está conformado por miembros de una misma sede; el 3.6% involucra miembros de 3 o más sedes de las 9 existentes – baja interacción entre sedes.
+
+--
+
+- La Universidad Nacional congrega el 10% (31 de 275) de las revistas que hacen parte a nivel nacional del Índice Bibliográfico PUBLINDEX. 
+
+--
+
+- Ninguna revista de la Universidad está categorizada en el nivel A1 y sólo una hace parte de la categoría A2. En correspondencia, el 58% (18) y el 39% (12) de las revistas de la institución están clasificadas en los niveles C y B, respectivamente.
+
+--
+
+- La evolución del número de productos académicos sometidos al Comité de Puntaje ha venido decreciendo durante los últimos 8 años. De 6853 productos sometidos a este Comité en el año 2011 se pasó a 5532 en el año 2019 –decrecimiento del 19%-.
+
+---
+## Para tener en cuenta
+
+--
+
+- La generación de productos de nuevo conocimiento y de divulgación científica son los tipos de productos sometidos al Comité de Puntaje que más han decrecido. En contraste, los productos sometidos por formación académica son los que mayor crecimiento han experimentado.
 
 
 ---
@@ -932,130 +1127,4 @@ class: inverse, center, middle
 --
 
 - El gran desafío para la UNAL se presenta en los indicadores de la relación del número de estudiantes por profesor, el número de citas por artículo publicado, el número de profesores extranjeros en planta y el mayor reto está en el número de estudiantes extranjeros matriculados en la oferta de programas. 
----
-class: inverse, center, middle
 
-# 6. Aspectos Financieros
-
----
-class: inverse, middle, center
-
-# 7. Investigación
-
----
-### Total grupos de investigación UNAL por tipología <br> Año 2020
-
-
-.pull-left[
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='430'}
-Grupos_UN
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
-]
-.pull-right[
-* En la Universidad existe un total de 953 grupos de investigación de los cuales el 61% está categorizado en Minciencias, el 35% se encuentra registrado y el 4% son reconocidos.
-
-* El 68% (647) de los grupos de investigación pertenece a la Sede Bogotá, el 19% (180) a la Sede Medellín, el 7% (66) a la Sede Manizales, el 5% a la Sede Palmira y el 1% (14) a las Sedes de Presencia Nacional incluida La Paz (Amazonía 8, Caribe 4, Orinoquía 1 y La Paz 1).
-]
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='430'}
-Grupos_pais
-```
-
-<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría de Investigación</i></font>
-
----
-#### Distribución grupos de investigación categorizados UNAL <br> por categoría y sedes, año 2020. 
-
-<!-- ![](Imagenes/Inv1.png) -->
-
-<center><img src="Imagenes/Inv1.png" alt="Grupos por sede" class="center" style="width:800px;height:500px;"></center>
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-Grupos_Inter
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-Grupos_OCDEP
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-####  Investigadores de la Universidad, categorizados por Colciencias 2020
-
-<center><img src="Imagenes/Inv2.png" alt="Grupos por sede" class="center" style="width:800px;height:150px;"></center>
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
-* La Universidad congrega el 9% de los investigadores del país reconocidos por Minciencias.
-
-* El 38% de los docentes de carrera de la Universidad es investigador, según clasificación de Minciencias.
-
-* El 1% (12) de los investigadores de la Universidad está clasificado como Emerito, el 40% (472) como Sénior, el 34% (408) como Junior y el 25% (300) como Asociado.
-
-* El número de estudiantes de la Universidad clasificados como investigadores ante Minciencias es relativamente bajo.
-
-* La Sede Bogotá congrega el 63% (752) de los investigadores; las demás sedes, el 37% (440).
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-Revistas
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-RevistasClaU
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-ComiteP
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-ComiteP
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-ComitePT 
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
