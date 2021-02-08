@@ -329,4 +329,105 @@ Investigadores_sexo <- Plot.Torta(datos = Inves_sexo, categoria = "INVSEXO",
 
 Salvar(Investigadores_sexo, "Investigacion", "InvSexo.html")
 
+# Cobertura bienestar ----
+
+Ubienestar <- tibble(Variable = "BIENESTAR",
+                    YEAR = rep(2015:2020, each = 12),
+                    SEMESTRE = rep(c(1, 2), each = 6, length(YEAR)/12),
+                    Clase = rep(c("Gestión y fomento socioeconómico", "Salud", "Actividad Física y Deporte", "Cultura", "Acompañamiento Integral", "Otras Áreas"), times = length(YEAR)/6),
+                    Total = c(6818,	62913,	11909,	8333,	23766,	991,
+                              7624,	71254,	16608,	8780,	33459,	991,
+                              7468,	61713,	54426,	12383,	29227,	1007,
+                              10244,	82122,	32082,	14430,	71238,	1007,
+                              9682,	67604,	47925,	21319,	27361,	972,
+                              9174,	61379,	87374,	45787,	36510,	972,
+                              8922,	53393,	113278,	60501,	37863,	975,
+                              10906,	68091,	137278,	51389,	31534,	975,
+                              9118,	62970,	105826,	41298,	32262,	961,
+                              10026,	56804,	120821,	37508,	34752,	961,
+                              6865,	43943,	49636,	11432,	32772,	966,
+                              6678,	31451,	53333,	23108,	37461,	966))
+
+
+
+# Plot
+
+col <-   c( "#6d6666",  # gris
+            "#fbb03b", # amarillo
+            "#29abe2", # azul claro
+            "#c1272d",  # rojo
+            "#8cc63f",  # verde
+            "#93278f") # morado
+
+
+Bienestar <- Plot.Series(datos = Ubienestar, categoria = "BIENESTAR", col = col,
+                        libreria = "highcharter",
+                        titulo = "Evolución de beneficiarios programas de bienestar <br> de la Universidad Nacional de Colombia por áreas",
+                        labelY = "Total beneficiarios",
+                        estilo    = list(hc.Tema = 6, hc.Slider = FALSE,
+                                         hc.Credits = "Periodo: 2015-2020"))
+
+
+Salvar(Bienestar, "Investigacion", "Bienestar.html")
+
+
+
+# Cobertura G. Socieconómica ----
+
+Ugyf <- tibble(Variable = "ECONÓMICO",
+               YEAR = rep(2005:2020, each = 12),
+               SEMESTRE = rep(c(1, 2), each = 6, length(YEAR)/12),
+               Clase = rep(c("Préstamo estudiantil", "Apoyo para el alojamiento", "Apoyo alimentario", "Apoyo para el transporte", "Apoyo Económico", "Otros apoyos"), times = length(YEAR)/6),
+               Total = c(3978,	629,	1207,	NA,	NA,	NA,
+                         3798,	527,	1210,	NA,	NA,	NA,
+                         3435,	586,	1093,	205,	NA,	144,
+                         3131,	597,	1149,	271,	NA,	150,
+                         3027,	627,	1122,	401,	NA,	147,
+                         2872,	615,	1231,	529,	NA,	1473,
+                         2690,	516,	1135,	553,	NA,	309,
+                         2630,	531,	1270,	255,	NA,	418,
+                         2588,	509,	1355,	443,	NA,	356,
+                         2550,	550,	1616,	366,	NA,	379,
+                         2485,	521,	1640,	646,	NA,	455,
+                         2106,	526,	2238,	699,	NA,	472,
+                         1726,	555,	1797,	885,	NA,	605,
+                         1580,	676,	2025,	737,	NA,	578,
+                         1570,	621,	1823,	1474,	NA,	383,
+                         1425,	621,	1881,	1541,	NA,	377,
+                         1097,	494,	2715,	1333,	NA,	1511,
+                         948,	456,	3614,	1360,	NA,	1410,
+                         769,	518,	3935,	1666,	NA,	0,
+                         595,	433,	4903,	1584,	NA,	15,
+                         450,	498,	3756,	2069,	NA,	0,
+                         302,	564,	4732,	1959,	NA,	0,
+                         203,	576,	4373,	2167,	149,	0,
+                         146,	635,	5206,	3575,	682,	0,
+                         64,	640,	4758,	3569,	651,	0,
+                         57,	631,	4521,	3625,	340,	0,
+                         42,	649,	4642,	2864,	725,	0,
+                         15,	639,	5866,	3663,	723,	0,
+                         5,	653,	5208,	3030,	222,	0,
+                         3,	726,	6027,	3026,	250,	0,
+                         1,	490,	3979,	209,	2186,	0,
+                         1,	461,	4978,	178,	1060,	0))
+
+# Plot
+
+col <-   c( "#6d6666",  # gris
+            "#fbb03b", # amarillo
+            "#29abe2", # azul claro
+            "#c1272d",  # rojo
+            "#8cc63f",  # verde
+            "#93278f") # morado
+
+
+Economica <- Plot.Series(datos = Ugyf, categoria = "ECONÓMICO", col = col,
+                         libreria = "highcharter",
+                         titulo = "Evolución de beneficiarios programas del <br> Área de Gestión y Fomento Socieoconómica",
+                         labelY = "Total beneficiarios",
+                         estilo    = list(hc.Tema = 6, hc.Slider = FALSE,
+                                          hc.Credits = "Periodo: 2005-2020"))
+
+
+Salvar(Economica, "Investigacion", "Economica.html")
 
