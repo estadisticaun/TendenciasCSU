@@ -106,17 +106,17 @@ xaringanExtra::use_logo(
 ### [2. Equidad, inclusión y bienestar](https://estadisticaun.github.io/TendenciasCSU/#30)
 #### [2.1 Equidad de género](https://estadisticaun.github.io/TendenciasCSU/#31)
 #### [2.2 Equidad territorial](https://estadisticaun.github.io/TendenciasCSU/#42)
-#### [2.3 Inclusión](https://estadisticaun.github.io/TendenciasCSU/#32)
-#### [2.4 Bienestar Universitario](https://estadisticaun.github.io/TendenciasCSU/#46)
+#### [2.3 Inclusión](https://estadisticaun.github.io/TendenciasCSU/#51)
+#### [2.4 Bienestar Universitario](https://estadisticaun.github.io/TendenciasCSU/#75)
 
 ]
 
 .pull-right[
-### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#49)
-#### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#50)
-#### [3.2 Resultados SaberPRO](https://estadisticaun.github.io/TendenciasCSU/#52)
-### [4. Investigación](https://estadisticaun.github.io/TendenciasCSU/#61)
-### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#75)
+### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#78)
+#### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#79)
+#### [3.2 Resultados SaberPRO](https://estadisticaun.github.io/TendenciasCSU/#81)
+### [4. Investigación](https://estadisticaun.github.io/TendenciasCSU/#106)
+### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#126)
 ]
 
 ---
@@ -431,7 +431,7 @@ class: inverse, center, middle
 
 --
 
-- La población de la Universidad Nacional de Colombia que presenta una menor desigualdad entre hombres y mujeres es la de Funcionarios Administrativos. Del total de funcionarios de carrera, el 49% (1427) son hombres y el 30% (1498) mujeres.
+- La población de la Universidad Nacional de Colombia que presenta una menor desigualdad entre hombres y mujeres es la de Funcionarios Administrativos. Del total de funcionarios de carrera, el 49% (1427) son hombres y el 51% (1498) mujeres.
 
 --
 
@@ -595,10 +595,6 @@ class: inverse, center, middle
 
 - Durante los últimos 12 años, la Universidad Nacional de Colombia ha multiplicado por 7 la proporción de aspirantes a través de modalidades especiales de inscripción y admisión. De un 4% (2.181 de 57.178) de aspirantes inscritos en programas de admisión especial (PAES y PEAMA) en el periodo 2008-1 se pasó a un 27% (10.734 de 40.465) de aspirantes en tal condición en el periodo 2020-2.
 
---
-
-- En la actualidad, 26 de cada 100 admitidos a pregrado en la Universidad Nacional de Colombia corresponde a programas de admisión especial (PAES o PEAMA). En el año 2008, esta cifra era de 4 de cada 100 admitidos.
-
 
 ---
 ## Para tener en cuenta
@@ -613,14 +609,15 @@ class: inverse, center, middle
 
 --
 
-- El número de aspirantes y admitidos del programa PAES bajo las modalidades de Victimas del Conflicto Armado Interno en Colombia y Comunidades Indígenas ha crecido de manera importante durante de los últimos 12 años. Por ejemplo, de 4 aspirantes pertenecientes al programa de Victimas en el periodo 2013-2 se pasó a 8.481 aspirantes en el periodo 2019-1 y 4.416 en el periodo 2020-2.
+- El número de aspirantes y admitidos del programa PAES bajo las modalidades de Victimas del Conflicto Armado Interno en Colombia y Comunidades Indígenas ha crecido de manera importante durante de los últimos 12 años. Por ejemplo, de 4 aspirantes pertenecientes al programa de Victimas en el periodo 2013-2 se pasó a 8.481 aspirantes en el periodo 2019-1 y 4.416 en el periodo 2020-2. ¿Cómo enfrentar estos crecimientos?
+
+---
+## Para tener en cuenta
+
 
 --
 
 - El número de aspirantes y admitidos a pregrado provenientes de los mejores bachilleres del país y de municipios pobres ha decrecido durante los últimos años.
-
----
-## Para tener en cuenta
 
 --
 
@@ -1023,10 +1020,6 @@ Saber_Area
 
 --
 
-- Los estudiantes admitidos a través de la Sede Orinoquía superan en promedio los resultados obtenidos por los estudiantes de la Sede Palmira.
-
---
-
 - Los resultados promedio obtenidos por los hombres en la prueba SaberPRO se acerca al promedio obtenido por las mujeres. Los hombres, en promedio, superan a las mujeres en las pruebas de razonamiento cuantitativo e inglés; en contraste, las mujeres superan en promedio a los hombres en las pruebas de lectura crítica y comunicación escrita.
 
 --
@@ -1122,9 +1115,9 @@ Grupos_OCDEP
 
 * La Universidad congrega el 9% de los investigadores del país reconocidos por Minciencias.
 
-* El 38% de los docentes de carrera de la Universidad es investigador, según clasificación de Minciencias.
+* El 38% de los docentes de carrera de la Universidad está categorizado como investigador por Minciencias.
 
-* El 1% (12) de los investigadores de la Universidad está clasificado como Emerito, el 40% (472) como Sénior, el 34% (408) como Junior y el 25% (300) como Asociado.
+* Según Minciencias, el 1% (12) de los investigadores de la Universidad está clasificado como Emerito, el 40% (472) como Sénior, el 34% (408) como Junior y el 25% (300) como Asociado.
 
 * El número de estudiantes de la Universidad clasificados como investigadores ante Minciencias es relativamente bajo.
 
@@ -1180,7 +1173,7 @@ ComitePT
 
 --
 
-- El 10% (578 de 5353) de los grupos de investigación de investigación categorizados en SCIENTI pertenecen a la Universidad Nacional de Colombia.
+- El 10% (578 de 5353) de los grupos de investigación categorizados en SCIENTI pertenecen a la Universidad Nacional de Colombia.
 
 --
 
@@ -1331,4 +1324,9 @@ class: inverse, center, middle
 --
 
 - El gran desafío para la UNAL se presenta en los indicadores de la relación del número de estudiantes por profesor, el número de citas por artículo publicado, el número de profesores extranjeros en planta y el mayor reto está en el número de estudiantes extranjeros matriculados en la oferta de programas. 
+
+---
+class: inverse, center, middle
+
+# ¡Muchas gracias!
 
