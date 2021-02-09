@@ -71,6 +71,30 @@ xaringanExtra::use_logo(
   4.	<p style="font-size:100%"  align="justify";> Buena parte de los gráficos contenidos en las distintas diapositivas pueden ser <b>“manipulados”</b> al hacer <b>click</b> en las distintas <b>opciones/etiquetas</b> que los acompañan.</p>
   
 ---
+## Sistema Estadístico de la UNAL
+
+Las estadísticas/indicadores contenidos en esta presentación hacen parte, en una importante proporción, de las cifras contenidas en la página web de [estadísticas](http://estadisticas.unal.edu.co/home/) de la Universidad Nacional de Colombia. En esta página, se puede consultar información oficial, histórica, actual y desgregada por sedes de las prncipales características asociadas a las poblaciones de aspirantes y admitidos, matriculados, graduados, docentes de carrera y administrativos, principalmente. Invitamos a los interesados a explorar la información allí contenida o a ingresar a los siguientes links (enlaces) en donde se dispone la información existente y disponible a nivel nacional y para cada una de las 9 sedes que conforman la Universidad.
+
+
+.pull-left[
+
+#### [Cifras Nacionales](http://estadisticas.unal.edu.co/menu-principal/cifras-generales/cifras-generales/)
+#### [Sede Bogotá](http://estadisticas.unal.edu.co/menu-principal/cifras-sedes/bogota/)
+#### [Sede Medellín](http://estadisticas.unal.edu.co/menu-principal/cifras-sedes/medellin/)
+#### [Sede Manizales](http://estadisticas.unal.edu.co/menu-principal/cifras-sedes/manizales/)
+#### [Sede Palmira](http://estadisticas.unal.edu.co/menu-principal/cifras-sedes/palmira/)
+
+]
+
+.pull-right[
+#### [Sede La Paz (en construcción)](https://estadisticaun.github.io/BoletinLaPaz/)
+#### [Sede Orinoquía (en construcción)](https://estadisticaun.github.io/BoletinOrinoquia/)
+#### [Sede Amazonía (en construcción)](https://estadisticaun.github.io/BoletinAmazonia/)
+#### [Sede Caribe (en construcción)](https://estadisticaun.github.io/BoletinCaribe/)
+#### [Sede Tumaco (en construcción)](https://estadisticaun.github.io/BoletinTumaco/)
+]
+
+---
 
 # Contenido
 
@@ -439,6 +463,27 @@ class: inverse, center, middle
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano. <br>
 <b>Disponible en:</b><a href="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html">https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html</a></i></font> 
 
+
+---
+## Para tener en cuenta
+
+--
+
+- La sede Bogotá representa el 58% (31.791) del total de matriculados de la Universidad; la sede Medellín, el 24% (13.109); la sede Manizales, el 11% (5.831) y la sede Palmira el 5% (2.989). Las demás sedes de la Universidad congregan el 2% (1.404) de los matriculados.
+
+--
+
+- La Universidad Nacional de Colombia cuenta con matriculados nacidos en el 82% (925 de 1122) de los municipios del país –incluye corregimientos departamentales-.
+
+--
+
+- 56 de cada 100 matriculados en la Universidad nació en la ciudad en donde se ubican las sedes andinas (40% (22.156) Bogotá, 9% (4821) Medellín, 5% (2742) Manizales y 2% (893) Palmira)
+
+--
+
+- Un hecho llamativo es la cantidad de estudiantes matriculados nacidos en el departamento de Nariño la cual alcanza el 5% (2.717 de 55.124) de la matricula total de la Universidad.
+
+
 ---
 class: inverse, center, middle
 ## 2.3 Inclusión
@@ -516,6 +561,58 @@ class: inverse, center, middle
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AdmPre/S_discapacidad.html"></iframe>
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Admisiones</i></font>
+
+
+---
+## Para tener en cuenta
+
+--
+
+- El número de aspirantes a la Universidad en situación de discapacidad ha aumentado de manera importante durante los últimos años. De 47 aspirantes en el periodo 2011-1 se pasó a 318 en el 2020-2 (visual 164, motriz 63, auditiva 31, psicosocial 31, cognitiva 28 y otras 1). 
+
+--
+
+- En el periodo 2020-2, el 9% de los aspirantes en situación de discapacidad fue admitido a la Universidad (29 de 318).
+
+--
+
+- Durante los últimos 12 años, la Universidad Nacional de Colombia ha multiplicado por 7 la proporción de aspirantes a través de modalidades especiales de inscripción y admisión. De un 4% (2.181 de 57.178) de aspirantes inscritos en programas de admisión especial (PAES y PEAMA) en el periodo 2008-1 se pasó a un 27% (10.734 de 40.465) de aspirantes en tal condición en el periodo 2020-2.
+
+--
+
+- En la actualidad, 26 de cada 100 admitidos a pregrado en la Universidad Nacional de Colombia corresponde a programas de admisión especial (PAES o PEAMA). En el año 2008, esta cifra era de 4 de cada 100 admitidos.
+
+
+---
+## Para tener en cuenta
+
+--
+
+- En concordancia con lo anterior, la Universidad Nacional de Colombia ha multiplicado por 3 la proporción de admitidos a pregrado a través de modalidades especiales de admisión. De un 8% (459 de 5.695) de aspirantes admitidos en programas de admisión especial (PAES y PEAMA) en el periodo 2008-1 se pasó a un 25% (1.485 de 5.839) de aspirantes admitidos en tal condición en el periodo 2020-2.
+
+--
+
+- El 67% de los aspirantes a pregrado inscritos mediante las modalidades de admisión especial corresponde al programa PAES y el 33% al programa PEAMA. Una proporción semejante se mantiene en los admitidos.
+
+--
+
+- El número de aspirantes y admitidos del programa PAES bajo las modalidades de Victimas del Conflicto Armado Interno en Colombia y Comunidades Indígenas ha crecido de manera importante durante de los últimos 12 años. Por ejemplo, de 4 aspirantes pertenecientes al programa de Victimas en el periodo 2013-2 se pasó a 8.481 aspirantes en el periodo 2019-1 y 4.416 en el periodo 2020-2.
+
+--
+
+- El número de aspirantes y admitidos a pregrado provenientes de los mejores bachilleres del país y de municipios pobres ha decrecido durante los últimos años.
+
+---
+## Para tener en cuenta
+
+--
+
+- El número de aspirantes y admitidos a pregrado pertenecientes al programa PEAMA ha crecido de manera importante durante los últimos años. De manera especial, el número de aspirantes y admitidos a través de los programas PEAMA – Orinoquía y PEAMA – Tumaco ha aumentado de manera importante en los últimos años.
+
+--
+
+- El número de aspirantes a las sedes Orinoquía (PEAMA – Orinoquía) y Tumaco (PEAMA - Tumaco) supera de manera importante el número de aspirantes de la sede Palmira y se acerca al de la Sede Manizales.
+
 
 ---
 class: inverse, center, middle
@@ -846,7 +943,82 @@ Saber_Area
 
 
 ---
-class: inverse, center, middle
+## Para tener en cuenta
+
+--
+
+- La proporción de docentes con doctorado en la Universidad se ha duplicado en los últimos 12 años. De un 27 % (791) de docentes con doctorado en el periodo 2008-2 se pasó a un 55% (1.724) con este título en el periodo 2020-2.
+
+--
+
+- El Examen de Calidad SaberPRO evalúa 5 competencias/pruebas transversales: Competencias Ciudadanas, Comunicación Escrita, inglés, Lectura Crítica y Razonamiento Cuantitativo.
+
+--
+
+- En una escala de 0 a 300 puntos, el valor promedio de las pruebas genéricas en el examen SaberPRO de las IES del país se ubicó, en el año 2019, en 147 puntos. 
+
+--
+
+- El valor promedio en las pruebas genéricas de los estudiantes de la Universidad Nacional de Colombia se ubicó en 177 puntos. La prueba con mejores resultados en la Universidad es la de razonamiento cuantitativo (188 en promedio) y la peor, comunicación escrita (155 en promedio). 
+
+---
+## Para tener en cuenta
+
+--
+
+- Los resultados promedio obtenidos en la prueba de comunicación escrita por los estudiantes de la Universidad, además de bajo e histórico, se acerca al promedio obtenido por la totalidad de IES que conforman el Sistema de Educación Superior del país (UNAL 155 vs país 144).
+
+
+--
+
+- La Universidad de los Andes supera en promedio, en todas las pruebas genéricas, a la Universidad Nacional de Colombia.
+
+--
+
+- La Universidad Nacional de Colombia, entre las principales universidades del país, es la única institución del SUE que se ubica en los primeros lugares –segundo- en los resultados de la prueba SaberPRO. Las Universidades Antioquia, Valle y UIS se ubican en la parte baja entre las 12 principales universidades.
+
+--
+
+- Entre las sedes andinas de la Universidad y con excepción de los resultados obtenidos en la prueba de razonamiento cuantitativo, la Sede Bogotá supera a la Sede Medellín, la Sede Medellín a la de Manizales y la Sede Manizales a la Sede Palmira. En la prueba de razonamiento cuantitativo, la sede Medellín supera los resultados obtenidos por la Sede Bogotá e incluso, los obtenidos por la Universidad de los Andes.
+
+
+---
+## Para tener en cuenta
+
+--
+
+- Los estudiantes admitidos a través de la Sede Orinoquía superan en promedio los resultados obtenidos por los estudiantes de la Sede Palmira.
+
+--
+
+- Los estudiantes admitidos a través de la Sede Orinoquía superan en promedio los resultados obtenidos por los estudiantes de la Sede Palmira.
+
+--
+
+- Los resultados promedio obtenidos por los hombres en la prueba SaberPRO se acerca al promedio obtenido por las mujeres. Los hombres, en promedio, superan a las mujeres en las pruebas de razonamiento cuantitativo e inglés; en contraste, las mujeres superan en promedio a los hombres en las pruebas de lectura crítica y comunicación escrita.
+
+--
+
+- Los estudiantes admitidos a través del programa PEAMA presentan los puntajes promedio más bajos en las pruebas genéricas del examen SaberPRO, seguido de los admitidos a través del programa PAES. Los admitidos de manera regular, además de alejarse de manera importante en los resultados promedio obtenidos, presentan los mejores resultados en la Universidad.
+
+---
+## Para tener en cuenta
+
+--
+
+- Es preocupante los valores promedio obtenidos en las pruebas genéricas del examen SaberPRO por los estudiantes provenientes de comunidades indígenas.
+
+--
+
+- De continuarse con la tendencia actual de resultados obtenidos por los estudiantes PAES y PEAMA (admisión especial) y dado su crecimiento en la Universidad a nivel de inscritos, admitidos y matriculados, se estima que los resultados promedio de la Universidad en las pruebas SaberPRO puede decrecer durante los próximos años.
+
+--
+
+- Los estudiantes pertenecientes a familias de estratos iguales o superiores al 4 presentan mejores resultados en las pruebas SaberPRO que los estudiantes provenientes de hogares pertenecientes a estratos 1 o 2. Esta misma correspondencia se observa en el Puntaje Básico de Matrícula (PBM). Mayores PBMs, mejores resultados; menores PBMs, peores resultados.
+
+--
+
+- Los estudiantes del área de Matemáticas y Ciencias Naturales presentan los mejores promedios en las pruebas SaberPRO. En contraste, los de Agronomía, Veterinaria y Afines, los peores resultados promedio.
 
 ---
 class: inverse, center, middle
