@@ -1113,7 +1113,7 @@ Grupos_OCDEP
 
 <font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
 
-* La Universidad congrega el 9% de los investigadores del país reconocidos por Minciencias.
+* El 9% de los investigadores del país reconocidos por Minciencias pertenece a la Universidad.
 
 * El 38% de los docentes de carrera de la Universidad está categorizado como investigador por Minciencias.
 
