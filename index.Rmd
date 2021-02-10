@@ -107,16 +107,16 @@ xaringanExtra::use_logo(
 #### [2.1 Equidad de género](https://estadisticaun.github.io/TendenciasCSU/#31)
 #### [2.2 Equidad territorial](https://estadisticaun.github.io/TendenciasCSU/#42)
 #### [2.3 Inclusión](https://estadisticaun.github.io/TendenciasCSU/#51)
-#### [2.4 Bienestar Universitario](https://estadisticaun.github.io/TendenciasCSU/#75)
+#### [2.4 Bienestar Universitario](https://estadisticaun.github.io/TendenciasCSU/#74)
 
 ]
 
 .pull-right[
-### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#78)
-#### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#79)
-#### [3.2 Resultados SaberPRO](https://estadisticaun.github.io/TendenciasCSU/#81)
-### [4. Investigación](https://estadisticaun.github.io/TendenciasCSU/#106)
-### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#126)
+### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#77)
+#### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#78)
+#### [3.2 Resultados SaberPRO](https://estadisticaun.github.io/TendenciasCSU/#80)
+### [4. Investigación](https://estadisticaun.github.io/TendenciasCSU/#104)
+### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#124)
 ]
 
 ---
