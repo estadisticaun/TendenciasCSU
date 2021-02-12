@@ -65,7 +65,7 @@ Grupos_pais <- tibble(Variable = "GRUPOSP",
 Grupos_pais <- Plot.Series(datos = Grupos_pais, categoria = "GRUPOSP", col = c("#116BEE", "#E62272"),
             libreria = "highcharter", 
             titulo = "Evolución grupos de investigación categorizados en SCIENTI",
-            labelY = "Número de grupos de investigación",
+            labelY = "Número de grupos de investigación (k: miles)",
             estilo    = list(hc.Tema = 4, hc.Slider = FALSE,
                              hc.Credits = "Total País y total Universidad Nacional de Colombia, 2002 -2020")
             )
@@ -183,7 +183,7 @@ Comite <- tibble(Variable = "TOTAL",
 ComiteP <- Plot.Series(datos = Comite, categoria = "TOTAL", col = c("#116BEE"),
                         libreria = "highcharter",
                         titulo = "Evolución de productos sometidos al Comité de Puntaje <br> de la Universidad Nacional de Colombia",
-                        labelY = "Total Productos",
+                        labelY = "Total Productos (k: miles)",
                         estilo    = list(hc.Tema = 4, hc.Slider = FALSE,
                                          hc.Credits = "Periodo: 2004-2019"))
 
@@ -226,7 +226,7 @@ col <-   c( "#6d6666",  # gris
 ComitePT <- Plot.Series(datos = Comite_Tipo, categoria = "COMITET", col = col,
                        libreria = "highcharter",
                        titulo = "Evolución de productos sometidos al Comité de Puntaje <br> de la Universidad Nacional de Colombia por tipología",
-                       labelY = "Total Productos",
+                       labelY = "Total Productos (k: miles)",
                        estilo    = list(hc.Tema = 4, hc.Slider = FALSE,
                                         hc.Credits = "Periodo: 2004-2019"))
      
