@@ -1,4 +1,4 @@
-# Librerías requeridas
+# Librerías requeridas ----
 
 library(readr)
 library(tidyr)
@@ -308,6 +308,27 @@ PostgradoU <- Plot.Series(datos = Postgrado, categoria = "POSTGRADO", col = col,
                               estilo    = list(hc.Slider = FALSE, hc.Credits = "Periodo: 1994-2020"))
 
 Salvar(PostgradoU, "Investigacion", "Postgrado.html")
+
+# Investigadores por Sexo Serie ----
+
+Inves_sexo_serie <- tibble(Variable = "INVSEXOS",
+                     YEAR = rep(2013:2020, each = 2),
+                     SEMESTRE = rep(c(2), length(YEAR)),
+                     Clase = rep(c("Hombres", "Mujeres"), length(YEAR)/2),
+                     Total = c(701, 304, 690, 283, 790, 305, 790, 305,
+                               754, 315, 827, 365, 827, 365, 827, 365))
+
+# Plot Serie Sexo
+
+col <-   c("#f15a24", "#8cc63f")
+
+
+Inves_sexo_s <- Plot.Series(datos = Inves_sexo_serie, categoria = "INVSEXOS", col = col,
+                          libreria = "highcharter",
+                          titulo = "Evolución docentes investigadores por sexo",
+                          labelY = "Total investigadores",
+                          estilo    = list(hc.Slider = FALSE, hc.Credits = "Periodo: 2013-2020. <br> Información con base en convocatorias de Minciencias: 640 de 2013, 693 de 2014, 737 de 2015, 781 de 2017 y 833 de 2018."))
+
 
 
 # Investigadores por Sexo ----
