@@ -330,6 +330,7 @@ Inves_sexo_s <- Plot.Series(datos = Inves_sexo_serie, categoria = "INVSEXOS", co
                           estilo    = list(hc.Slider = FALSE, hc.Credits = "Periodo: 2013-2020. <br> Información con base en convocatorias de Minciencias: 640 de 2013, 693 de 2014, 737 de 2015, 781 de 2017 y 833 de 2018."))
 
 
+Salvar(Inves_sexo_s, "Investigacion", "InvSexSerie.html")
 
 # Investigadores por Sexo ----
 
@@ -452,3 +453,45 @@ Economica <- Plot.Series(datos = Ugyf, categoria = "ECONÓMICO", col = col,
 
 Salvar(Economica, "Investigacion", "Economica.html")
 
+# Razón Docentes TCE ----
+
+DocentesTCE <- tibble(Variable = "RTCE",
+               YEAR = rep(2003:2020, each = 5),
+               SEMESTRE = rep(1, each = 5, length(YEAR)/5),
+               Clase = rep(c("Bogotá", "Medellín", "Manizales", "Palmira", "UNAL"), times = length(YEAR)/5),
+               Total = c(14.1,	14.3,	26.3,	23.8,	15.4,
+                         15.0,	16.7,	26.2,	23.2,	16.5,
+                         14.7,	18.2,	25.6,	25.5,	16.5,
+                         13.7,	17.6,	24.3,	21.6,	15.5,
+                         14.2,	18.8,	23.7,	23.3,	16.1,
+                         14.1,	17.0,	21.4,	21.9,	15.5,
+                         14.5,	18.9,	20.9,	20.4,	16.1,
+                         14.9,	19.3,	21.1,	21.1,	16.5,
+                         15.7,	20.1,	21.8,	22.6,	17.3,
+                         16.1,	20.3,	22.4,	24.7,	17.9,
+                         16.9,	19.8,	23.6,	26.3,	18.4,
+                         16.3,  19.6,	23.8,	25.5,	17.9,
+                         16.6,	20.2,	25.1,	27.0,	18.4,
+                         16.6,	20.2,	24.3,	27.8,	18.4,
+                         16.3,	20.1,	24.3,	27.9,	18.3,
+                         16.3,	19.9,	23.2,	25.0,	18.1,
+                         16.0,	19.8,	23.1,	23.2,	17.7,
+                         16.1,	21.0,	23.9,	23.8,	18.3))
+
+
+# Plot
+
+col <-   c( "#6d6666",  # gris
+            "#29abe2", # azul claro
+            "#c1272d",  # rojo
+            "#8cc63f",  # verde
+            "#93278f") # morado
+
+DTCE <- Plot.Series(datos = DocentesTCE, categoria = "RTCE", col = col,
+                         libreria = "highcharter",
+                         titulo = "Evolución razón estudiantes por docentes TCE <br> Nacional y sedes andinas",
+                         labelY = "Razón",
+                         estilo    = list(hc.Tema = 6, hc.Slider = FALSE,
+                                          hc.Credits = "Periodo: 2003-2020"))
+
+Salvar(DTCE, "Investigacion", "dtce.html")

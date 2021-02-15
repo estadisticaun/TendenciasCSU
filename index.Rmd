@@ -56,7 +56,7 @@ xaringanExtra::use_logo(
 
 # Objetivo de la presentación
 
-<p align="justify"> Presentar, a través de la disposición de las principales tendencias estadísticas de la Universidad, una aproximación descriptiva al estado actual institucional de aspectos centrales como la evolución histórica de las principales cifras institucionales; la equidad, la inclusión y el bienestar; la calidad de la educación; los productos, resultados e impactos existentes a nivel institucional; el posicionamiento en rankings nacionales e internacionales; la realidad financiera, así como la ejecución alcanzada a través de la implementación del actual Plan Global de Desarrollo. 
+<p align="justify"> Presentar, a través de la disposición de las principales tendencias estadísticas de la Universidad, una aproximación descriptiva al estado actual institucional de aspectos centrales como la evolución histórica de las principales cifras institucionales; la equidad, la inclusión y el bienestar; la calidad de la educación; los productos, resultados e impactos existentes a nivel institucional, así como el posicionamiento en rankings nacionales e internacionales. 
 
 ---
 
@@ -114,7 +114,7 @@ xaringanExtra::use_logo(
 .pull-right[
 ### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#78)
 #### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#79)
-#### [3.2 Resultados SaberPRO](https://estadisticaun.github.io/TendenciasCSU/#81)
+#### [3.2 Resultados Saber Pro](https://estadisticaun.github.io/TendenciasCSU/#81)
 ### [4. Investigación](https://estadisticaun.github.io/TendenciasCSU/#105)
 ### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#124)
 ]
@@ -431,6 +431,21 @@ class: inverse, center, middle
 
 --
 
+- <p align="justify"> Históricamente, el 50% de los aspirantes a la Universidad son hombres y el 50% mujeres. No obstante, históricamente la cantidad de hombres admitidos supera entre un 10% y 12% a la de mujeres. Para el periodo 2020-2, el 60% (4567) de los admitidos fueron hombres y el 40% (3088) mujeres.
+
+--
+
+- <p align="justify"> En la actualidad, el 62% (34053) de los estudiantes matriculados en la Universidad son hombres y el 38% mujeres (21071). Esta desigualdad se reduce levemente en la población de matriculados en postgrado en donde el 58% (4542) son hombres y el 42% (3303) mujeres.
+
+--
+
+- <p align="justify"> El 61% (2307) de los estudiantes graduados de la Universidad son hombres y el 39% (1506) mujeres. Aunque hace 10 años la diferencia era menor entre hombres y mujeres graduadas, durante los últimos años esta se ha venido ampliando en favor de los hombres (56% vs 44% en 2009 - 61% vs 39% en 2020).
+
+---
+## Para tener en cuenta
+
+--
+
 - <p align="justify"> La población de la Universidad Nacional de Colombia que presenta una mayor desigualdad entre hombres y mujeres es la de Docentes de Carrera. Del total de docentes de carrera, el 70% (2178) son hombres y el 30% (934) mujeres.
 
 --
@@ -443,22 +458,9 @@ class: inverse, center, middle
 
 --
 
-- <p align="justify"> El 63% (230) de los funcionarios administrativos que conforman el nivel nacional son mujeres y el 37% (133) hombres.
+- <p align="justify"> El 63% (230) de los funcionarios administrativos que conforman el Nivel Nacional son mujeres y el 37% (133) hombres.
 
----
-## Para tener en cuenta
 
---
-
-- <p align="justify"> Históricamente, el 50% de los aspirantes a la Universidad son hombres y el 50% mujeres. No obstante, históricamente la cantidad de hombres admitidos supera entre un 10% y 12% a la de mujeres. Para el periodo 2020-2, el 60% (4567) de los admitidos fueron hombres y el 40% (3088) mujeres.
-
---
-
-- <p align="justify"> En la actualidad, el 62% (34053) de los estudiantes matriculados en la Universidad son hombres y el 38% mujeres (21071). Esta desigualdad se reduce levemente en la población de matriculados en postgrado en donde el 58% (4542) son hombres y el 42% (3303) mujeres.
-
---
-
-- <p align="justify"> El 61% (2307) de los estudiantes graduados de la Universidad son hombres y el 39% (1506) mujeres. Aunque hace 10 años la diferencia era menor entre hombres y mujeres graduadas, durante los últimos años esta se ha venido ampliando en favor de los hombres (56% vs 44% en 2009 - 61% vs 39% en 2020).
 
 ---
 class: inverse, center, middle
@@ -496,7 +498,7 @@ class: inverse, center, middle
 
 <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html"></iframe>
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Talento Humano. <br>
+<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica. <br>
 <b>Disponible en:</b><a href="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html">https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Nac_col1.html</a></i></font> 
 
 
@@ -687,13 +689,13 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-## 3.2 Resultados pruebas SaberPRO 2019
+## 3.2 Resultados pruebas Saber Pro 2019
 
 
 ---
-### Cantidad de evaluados pruebas SaberPRO 2019
+### Cantidad de evaluados pruebas Saber Pro 2019
 
-<p align="justify"> Los resultados que se presentan a continuación se basan en la prueba SaberPRO aplicada por el Instituto Colombiano Para la Evaluación de la Educación ICFES en el año 2019. A continuación, se presenta el número de evaluados en este año a nivel nacional y en cada una de las sedes de la Universidad. 
+<p align="justify"> Los resultados que se presentan a continuación se basan en la prueba Saber Pro aplicada por el Instituto Colombiano Para la Evaluación de la Educación ICFES en el año 2019. A continuación, se presenta el número de evaluados en este año a nivel nacional y en cada una de las sedes de la Universidad. 
 
 ```{r, echo=FALSE, message=FALSE}
 library(dplyr)
@@ -712,7 +714,7 @@ knitr::kable(Saber, col.names = gsub("[.]", " ", names(Saber)))
 ![](Imagenes/SaberPRO.png)
 
 ---
-#### Resultados <FONT COLOR="red">País</FONT> SaberPRO 2019
+#### Resultados <FONT COLOR="red">País</FONT> Saber Pro 2019
 
 .panelset[
 
@@ -760,7 +762,7 @@ ggplot(data = SBPRO_2019_GEN, aes(y = PUNTAJE_GLOBAL, x = fct_reorder(G12, PUNTA
   geom_boxplot(outlier.color = "green", fill = "gray") +
   ylim(0, 300) + geom_hline(yintercept = 180, col = "red", size = 1) +
   geom_hline(yintercept = c(0, 300), col = "blue", size = 1, linetype="dashed") +
-  ggtitle("Distribución puntajes globales SaberPRO 2019", subtitle = "Principales universidades del país\n")+
+  ggtitle("Distribución puntajes globales Saber Pro 2019", subtitle = "Principales universidades del país\n")+
   ylab("\n Puntaje Promedio Global Saber PRO")+
   xlab("Universidades")+coord_flip() +
   theme(axis.text.y = element_text(size = 13, face = "bold"),
@@ -796,7 +798,7 @@ Saber_Global_G15
 ]
 
 ---
-<h4> Resultados <FONT COLOR="red">Universidad Nacional</FONT> - SaberPRO 2019 </h4>
+<h4> Resultados <FONT COLOR="red">Universidad Nacional</FONT> - Saber Pro 2019 </h4>
 
 .panelset[
 .panel[.panel-name[UNAL]
@@ -999,11 +1001,11 @@ Saber_Area
 
 --
 
-- <p align="justify"> El Examen de Calidad SaberPRO evalúa 5 competencias/pruebas transversales: Competencias Ciudadanas, Comunicación Escrita, inglés, Lectura Crítica y Razonamiento Cuantitativo.
+- <p align="justify"> El Examen de Calidad Saber Pro evalúa 5 competencias/pruebas transversales: Competencias Ciudadanas, Comunicación Escrita, inglés, Lectura Crítica y Razonamiento Cuantitativo.
 
 --
 
-- <p align="justify"> En una escala de 0 a 300 puntos, el valor promedio de las pruebas genéricas en el examen SaberPRO de las IES del país se ubicó, en el año 2019, en 147 puntos. 
+- <p align="justify"> En una escala de 0 a 300 puntos, el valor promedio de las pruebas genéricas en el examen Saber Pro de las IES del país se ubicó, en el año 2019, en 147 puntos. 
 
 --
 
@@ -1023,7 +1025,7 @@ Saber_Area
 
 --
 
-- <p align="justify"> La Universidad Nacional de Colombia, entre las principales universidades del país, es la única institución del SUE que se ubica en los primeros lugares –segundo- en los resultados de la prueba SaberPRO. Las Universidades Antioquia, Valle y UIS se ubican en la parte baja entre las 12 principales universidades.
+- <p align="justify"> La Universidad Nacional de Colombia, entre las principales universidades del país, es la única institución del SUE que se ubica en los primeros lugares –segundo- en los resultados de la prueba Saber Pro. Las Universidades Antioquia, Valle y UIS se ubican en la parte baja entre las 12 principales universidades.
 
 --
 
@@ -1039,30 +1041,30 @@ Saber_Area
 
 --
 
-- <p align="justify"> Los resultados promedio obtenidos por los hombres en la prueba SaberPRO se acerca al promedio obtenido por las mujeres. Los hombres, en promedio, superan a las mujeres en las pruebas de razonamiento cuantitativo e inglés; en contraste, las mujeres superan en promedio a los hombres en las pruebas de lectura crítica y comunicación escrita.
+- <p align="justify"> Los resultados promedio obtenidos por los hombres en la prueba Saber Pro se acerca al promedio obtenido por las mujeres. Los hombres, en promedio, superan a las mujeres en las pruebas de razonamiento cuantitativo e inglés; en contraste, las mujeres superan en promedio a los hombres en las pruebas de lectura crítica y comunicación escrita.
 
 --
 
-- <p align="justify"> Los estudiantes admitidos a través del programa PEAMA presentan los puntajes promedio más bajos en las pruebas genéricas del examen SaberPRO, seguido de los admitidos a través del programa PAES. Los admitidos de manera regular, además de alejarse de manera importante en los resultados promedio obtenidos, presentan los mejores resultados en la Universidad.
+- <p align="justify"> Los estudiantes admitidos a través del programa PEAMA presentan los puntajes promedio más bajos en las pruebas genéricas del examen Saber Pro, seguido de los admitidos a través del programa PAES. Los admitidos de manera regular, además de alejarse de manera importante en los resultados promedio obtenidos, presentan los mejores resultados en la Universidad.
 
 ---
 ## Para tener en cuenta
 
 --
 
-- <p align="justify"> Es preocupante los valores promedio obtenidos en las pruebas genéricas del examen SaberPRO por los estudiantes provenientes de comunidades indígenas.
+- <p align="justify"> Es preocupante los valores promedio obtenidos en las pruebas genéricas del examen Saber Pro por los estudiantes provenientes de comunidades indígenas.
 
 --
 
-- <p align="justify"> De continuarse con la tendencia actual de resultados obtenidos por los estudiantes PAES y PEAMA (admisión especial) y dado su crecimiento en la Universidad a nivel de inscritos, admitidos y matriculados, se estima que los resultados promedio de la Universidad en las pruebas SaberPRO puede decrecer durante los próximos años.
+- <p align="justify"> De continuarse con la tendencia actual de resultados obtenidos por los estudiantes PAES y PEAMA (admisión especial) y dado su crecimiento en la Universidad a nivel de inscritos, admitidos y matriculados, se estima que los resultados promedio de la Universidad en las pruebas Saber Pro puede decrecer durante los próximos años.
 
 --
 
-- <p align="justify"> Los estudiantes pertenecientes a familias de estratos iguales o superiores al 4 presentan mejores resultados en las pruebas SaberPRO que los estudiantes provenientes de hogares pertenecientes a estratos 1 o 2. Esta misma correspondencia se observa en el Puntaje Básico de Matrícula (PBM). Mayores PBMs, mejores resultados; menores PBMs, peores resultados.
+- <p align="justify"> Los estudiantes pertenecientes a familias de estratos iguales o superiores al 4 presentan mejores resultados en las pruebas Saber Pro que los estudiantes provenientes de hogares pertenecientes a estratos 1 o 2. Esta misma correspondencia se observa en el Puntaje Básico de Matrícula (PBM). Mayores PBMs, mejores resultados; menores PBMs, peores resultados.
 
 --
 
-- <p align="justify"> Los estudiantes del área de Matemáticas y Ciencias Naturales presentan los mejores promedios en las pruebas SaberPRO. En contraste, los de Agronomía, Veterinaria y Afines, los peores resultados promedio.
+- <p align="justify"> Los estudiantes del área de Matemáticas y Ciencias Naturales presentan los mejores promedios en las pruebas Saber Pro. En contraste, los de Agronomía, Veterinaria y Afines, los peores resultados promedio.
 
 ---
 class: inverse, center, middle
@@ -1136,7 +1138,7 @@ Grupos_OCDEP
 
 * <p align="justify"> El 38% de los docentes de carrera de la Universidad está categorizado como investigador por Minciencias.
 
-* <p align="justify"> Según Minciencias, el 1% (12) de los investigadores de la Universidad está clasificado como Emerito, el 40% (472) como Sénior, el 34% (408) como Junior y el 25% (300) como Asociado.
+* <p align="justify"> Según Minciencias, el 1% (12) de los investigadores de la Universidad está clasificado como Emérito, el 40% (472) como Sénior, el 34% (408) como Junior y el 25% (300) como Asociado.
 
 * <p align="justify"> El número de estudiantes de la Universidad clasificados como investigadores ante Minciencias es relativamente bajo.
 
@@ -1293,6 +1295,15 @@ class: inverse, center, middle
 
 <font size=2><i><b>Fuente: </b><a href="https://www.topuniversities.com/
 ">https://www.topuniversities.com/</a></i></font>
+
+
+---
+### Razón Estudiantes por docentes TCE
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='420'}
+DTCE
+```
+
 
 ---
 ### Porcentaje docentes extranjeros en planta UNAL - ranking QS
