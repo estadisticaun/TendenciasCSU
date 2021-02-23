@@ -54,11 +54,11 @@ xaringanExtra::use_logo(
 
 
 
-# Objetivo de la presentación
+<!-- # Objetivo de la presentación -->
 
-<p align="justify"> Presentar, a través de la disposición de las principales tendencias estadísticas de la Universidad, una aproximación descriptiva al estado actual institucional de aspectos centrales como la evolución histórica de las principales cifras institucionales; la equidad, la inclusión y el bienestar; la calidad de la educación; los productos, resultados e impactos existentes a nivel institucional, así como el posicionamiento en rankings nacionales e internacionales. 
+<!-- <p align="justify"> Presentar, a través de la disposición de las principales tendencias estadísticas de la Universidad, una aproximación descriptiva al estado actual institucional de aspectos centrales como la evolución histórica de las principales cifras institucionales; la equidad, la inclusión y el bienestar; la calidad de la educación; los productos, resultados e impactos existentes a nivel institucional, así como el posicionamiento en rankings nacionales e internacionales.  -->
 
----
+<!-- --- -->
 
 ## Consideraciones para el uso adecuado de la presentación
 
@@ -102,21 +102,20 @@ xaringanExtra::use_logo(
 
 .pull-left[
 
-### [1. Tendencias Generales](https://estadisticaun.github.io/TendenciasCSU/#6)
-### [2. Equidad, inclusión y bienestar](https://estadisticaun.github.io/TendenciasCSU/#30)
-#### [2.1 Equidad de género](https://estadisticaun.github.io/TendenciasCSU/#31)
-#### [2.2 Equidad territorial](https://estadisticaun.github.io/TendenciasCSU/#42)
-#### [2.3 Inclusión](https://estadisticaun.github.io/TendenciasCSU/#52)
-#### [2.4 Bienestar Universitario](https://estadisticaun.github.io/TendenciasCSU/#75)
+### [1. Tendencias Generales](https://estadisticaun.github.io/TendenciasCSU/#5)
+### [2. Equidad, inclusión y bienestar](https://estadisticaun.github.io/TendenciasCSU/#23)
+#### [2.1 Equidad de género](https://estadisticaun.github.io/TendenciasCSU/#24)
+#### [2.2 Equidad territorial](https://estadisticaun.github.io/TendenciasCSU/#35)
+#### [2.3 Inclusión](https://estadisticaun.github.io/TendenciasCSU/#44)
+#### [2.4 Bienestar Universitario](https://estadisticaun.github.io/TendenciasCSU/#65)
 
 ]
 
 .pull-right[
-### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#78)
-#### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#79)
-#### [3.2 Resultados Saber Pro](https://estadisticaun.github.io/TendenciasCSU/#81)
-### [4. Investigación](https://estadisticaun.github.io/TendenciasCSU/#105)
-### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#124)
+### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#68)
+#### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#69)
+#### [3.2 Resultados Saber Pro](https://estadisticaun.github.io/TendenciasCSU/#71)
+### [4. Rankings](https://estadisticaun.github.io/TendenciasCSU/#94)
 ]
 
 ---
@@ -124,12 +123,12 @@ class: inverse, center, middle
 
 # 1. Tendencias Generales
 
----
-### Evolución de programas académicos
+<!-- --- -->
+<!-- ### Evolución de programas académicos -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Programas.html"></iframe>
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/TendenciasCSU/Investigacion/Programas.html"></iframe> -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría Académica</i></font> 
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría Académica</i></font>  -->
 
 ---
 ### Evolución de programas académicos por modalidad de formación
@@ -145,12 +144,12 @@ class: inverse, center, middle
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría Académica</i></font> 
 
----
-### Evolución de Aspirantes
+<!-- --- -->
+<!-- ### Evolución de Aspirantes -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/Serie.html"></iframe>
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Aspirantes/Serie.html"></iframe> -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font> 
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>  -->
 
 ---
 ### Evolución de Aspirantes - nivel de formación
@@ -159,27 +158,27 @@ class: inverse, center, middle
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
 
----
-### Evolución de Admitidos
+<!-- --- -->
+<!-- ### Evolución de Admitidos -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/Serie.html"></iframe>
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/Serie.html"></iframe> -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font> 
----
-### Evolución de Admitidos - nivel de formación
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>  -->
+<!-- --- -->
+<!-- ### Evolución de Admitidos - nivel de formación -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/S_nivel.html"></iframe>
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/Admitidos/S_nivel.html"></iframe> -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font> -->
 
----
-### Evolución de matriculados
+<!-- --- -->
+<!-- ### Evolución de matriculados -->
 
-<iframe width="100%" height="430px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Serie.html"></iframe>
+<!-- <iframe width="100%" height="430px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/Serie.html"></iframe> -->
 
-<font size=1 color="red" align="justify"><b>NOTA:</b> El decrecimiento significativo observado en el total de matriculados en el periodo 2020-1 se debe a la anormalidad académica presentada en la Sede Medellín de la Universidad. En esta sede, durante el periodo 2020-1, los estudiantes regulares de pregrado se encontraban culminando el segundo semestre del año 2019.</font>
-<br>
-<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>
+<!-- <font size=1 color="red" align="justify"><b>NOTA:</b> El decrecimiento significativo observado en el total de matriculados en el periodo 2020-1 se debe a la anormalidad académica presentada en la Sede Medellín de la Universidad. En esta sede, durante el periodo 2020-1, los estudiantes regulares de pregrado se encontraban culminando el segundo semestre del año 2019.</font> -->
+<!-- <br> -->
+<!-- <font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font> -->
 
 ---
 ### Evolución de matriculados - nivel de formación
@@ -191,12 +190,12 @@ class: inverse, center, middle
 <font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>
 
 
----
-### Evolución de Graduados
+<!-- --- -->
+<!-- ### Evolución de Graduados -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Graduados/Nal/Graduados/Serie.html"></iframe>
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Graduados/Nal/Graduados/Serie.html"></iframe> -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Secretaría General</i></font>
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Secretaría General</i></font> -->
 
 
 ---
@@ -476,12 +475,12 @@ class: inverse, center, middle
 <br>
 <font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica </i></font>
 
----
-### Matriculados por sedes
+<!-- --- -->
+<!-- ### Matriculados por sedes -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/A_sede.html"></iframe>
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_Matriculados/Nal/Matriculados/A_sede.html"></iframe> -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font>
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Información Académica</i></font> -->
 
 ---
 
@@ -526,11 +525,18 @@ class: inverse, center, middle
 class: inverse, center, middle
 ## 2.3 Inclusión
 
----
-### Aspirantes a pregrado por modalidad de inscripción
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AspPre/S_modalidad.html"></iframe>
+<!-- --- -->
+<!-- ### Aspirantes a pregrado por modalidad de inscripción -->
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AspPre/S_modalidad.html"></iframe> -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Admisiones</i></font>
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Admisiones</i></font> -->
+---
+### Inscripción y admisión especial en la UNAL
+
+<p align="justify"> En la Universidad Nacional de Colombia existen dos grandes programas de inscripción y admisión especial: **PAES y PEAMA**. Estas modalidades de inscripción y admisión, además de presentar diversas modalidades, pueden diferir en sus condiciones de acceso y permanencia. Por ejemplo, las modalidades de Victimas del Conflicto Armado Interno en Colombia y Mejores Bachilleres del País del programa PAES, difieren en sus condiciones/beneficios respecto de las demás modalidades de este programa. Para conocer las particularidades que definen cada una de las modalidades que conforman estos programas, los invitamos a explorar la sección **“Desagregaciones de la estadística”** de la sesión de [metadatos](http://estadisticas.unal.edu.co/menu-principal/cifras-generales/metadatos/) de la página de [estadísticas oficiales](http://estadisticas.unal.edu.co/home/) de la Universidad o a dar click en el siguiente enlace.
+<br>
+* [Metadatos Aspirantes a pregrado - cifras oficiales Universidad Nacional de Colombia](https://bit.ly/3khbf5T)
+
 
 ---
 ### Aspirantes a pregrado por tipo de inscripción
@@ -556,11 +562,11 @@ class: inverse, center, middle
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Admisiones</i></font>
 
 
----
-### Admitidos a pregrado por modalidad de inscripción
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AdmPre/S_modalidad.html"></iframe>
+<!-- --- -->
+<!-- ### Admitidos a pregrado por modalidad de inscripción -->
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AdmPre/S_modalidad.html"></iframe> -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Admisiones</i></font>
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Admisiones</i></font> -->
 
 ---
 ### Admitidos a pregrado por tipo de inscripción
@@ -586,12 +592,12 @@ class: inverse, center, middle
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Admisiones</i></font>
 
 
----
-### Aspirantes a pregrado en situación de discapacidad
+<!-- --- -->
+<!-- ### Aspirantes a pregrado en situación de discapacidad -->
 
-<iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AspPre/S_discapacidad.html"></iframe>
+<!-- <iframe width="100%" height="450px" frameborder="0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" src="https://estadisticaun.github.io/G_AspAdm/Nal/AspPre/S_discapacidad.html"></iframe> -->
 
-<font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Admisiones</i></font>
+<!-- <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Admisiones</i></font> -->
 
 ---
 ### Admitidos a pregrado en situación de discapacidad
@@ -708,10 +714,10 @@ knitr::kable(Saber, col.names = gsub("[.]", " ", names(Saber)))
 
 
 
----
-### Competencias genéricas evaluadas en las pruebas Saber Pro 2019
+<!-- --- -->
+<!-- ### Competencias genéricas evaluadas en las pruebas Saber Pro 2019 -->
 
-![](Imagenes/SaberPRO.png)
+<!-- ![](Imagenes/SaberPRO.png) -->
 
 ---
 #### Resultados <FONT COLOR="red">País</FONT> Saber Pro 2019
@@ -1066,155 +1072,11 @@ Saber_Area
 
 - <p align="justify"> Los estudiantes del área de Matemáticas y Ciencias Naturales presentan los mejores promedios en las pruebas Saber Pro. En contraste, los de Agronomía, Veterinaria y Afines, los peores resultados promedio.
 
----
-class: inverse, center, middle
-
-# 4. Investigación
-
----
-### Total grupos de investigación UNAL por tipología <br> Año 2020
-
-
-.pull-left[
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='430'}
-Grupos_UN
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
-]
-.pull-right[
-* <p align="justify"> En la Universidad existe un total de 953 grupos de investigación de los cuales el 61% está categorizado en Minciencias, el 35% se encuentra registrado y el 4% son reconocidos.
-
-* <p align="justify"> El 68% (647) de los grupos de investigación pertenece a la Sede Bogotá, el 19% (180) a la Sede Medellín, el 7% (66) a la Sede Manizales, el 5% a la Sede Palmira y el 1% (14) a las Sedes de Presencia Nacional incluida La Paz (Amazonía 8, Caribe 4, Orinoquía 1 y La Paz 1).
-]
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='430'}
-Grupos_pais
-```
-
-<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Vicerrectoría de Investigación</i></font>
-
----
-#### Distribución grupos de investigación categorizados UNAL <br> por categoría y sedes, año 2020. 
-
-<!-- ![](Imagenes/Inv1.png) -->
-
-<center><img src="Imagenes/Inv1.png" alt="Grupos por sede" class="center" style="width:800px;height:500px;"></center>
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-Grupos_Inter
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-Grupos_OCDEP
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-####  Investigadores de la Universidad, categorizados por Colciencias 2020
-
-<center><img src="Imagenes/Inv2.png" alt="Grupos por sede" class="center" style="width:800px;height:150px;"></center>
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
-* <p align="justify"> El 9% de los investigadores del país reconocidos por Minciencias pertenece a la Universidad.
-
-* <p align="justify"> El 38% de los docentes de carrera de la Universidad está categorizado como investigador por Minciencias.
-
-* <p align="justify"> Según Minciencias, el 1% (12) de los investigadores de la Universidad está clasificado como Emérito, el 40% (472) como Sénior, el 34% (408) como Junior y el 25% (300) como Asociado.
-
-* <p align="justify"> El número de estudiantes de la Universidad clasificados como investigadores ante Minciencias es relativamente bajo.
-
-* <p align="justify"> La Sede Bogotá congrega el 63% (752) de los investigadores; las demás sedes, el 37% (440).
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-Revistas
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-RevistasClaU
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-ComiteP
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-#### <FONT COLOR="white">Grupos de investigación</FONT>
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', out.height='300'}
-ComitePT 
-```
-
-<font size=2><i><b>Fuente:</b> Vicerrectoría de Investigación</i></font>
-
----
-## Para tener en cuenta
-
---
-
-- <p align="justify"> El 10% (578 de 5353) de los grupos de investigación categorizados en SCIENTI pertenecen a la Universidad Nacional de Colombia.
-
---
-
-- <p align="justify"> El 81% de los grupos de investigación de la Universidad está conformado por miembros de una misma sede; el 3.6% involucra miembros de 3 o más sedes de las 9 existentes – baja interacción entre sedes.
-
---
-
-- <p align="justify"> La Universidad Nacional congrega el 10% (31 de 275) de las revistas que hacen parte a nivel nacional del Índice Bibliográfico PUBLINDEX. 
-
---
-
-- <p align="justify"> Ninguna revista de la Universidad está categorizada en el nivel A1 y sólo una hace parte de la categoría A2. En correspondencia, el 58% (18) y el 39% (12) de las revistas de la institución están clasificadas en los niveles C y B, respectivamente.
-
---
-
-- <p align="justify"> La evolución del número de productos académicos sometidos al Comité de Puntaje ha venido decreciendo durante los últimos 8 años. De 6853 productos sometidos a este Comité en el año 2011 se pasó a 5532 en el año 2019 –decrecimiento del 19%-.
-
----
-## Para tener en cuenta
-
---
-
-- <p align="justify"> La generación de productos de nuevo conocimiento y de divulgación científica son los tipos de productos sometidos al Comité de Puntaje que más han decrecido. En contraste, los productos sometidos por formación académica son los que mayor crecimiento han experimentado.
-
 
 ---
 class: inverse, center, middle
 
-# 5. Rankings
+# 4. Rankings
 
 ---
 ### La UNAL en el Ranking QS
@@ -1352,5 +1214,8 @@ class: inverse, center, middle
 
 # ¡Muchas gracias!
 <br>
-## Más información en [http://estadisticas.unal.edu.co/](http://estadisticas.unal.edu.co/home/)
+## El contenido de esta presentación se encuentra disponible en:<br>
+[https://estadisticaun.github.io/TendenciasCSU/index#1](https://estadisticaun.github.io/TendenciasCSU/index#1)
+<br>
+## Más información en:<br> [http://estadisticas.unal.edu.co/](http://estadisticas.unal.edu.co/home/)
 
