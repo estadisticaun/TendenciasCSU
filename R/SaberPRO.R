@@ -154,7 +154,6 @@ grafica_radar <- function(datos, clase, etiqueta, mini = 100, maxi=300, orden = 
 
 # Gráficos de interes
 
-
 Saber_Global <- grafica_radar(saber19un, clase = "GLOBAL", etiqueta = " ")
 Saber_GlobalZ <- grafica_radar(saber19un, clase = "GLOBAL", etiqueta = " ", maxi = 200)
 Saber_Sede <- grafica_radar(saber19un, clase = "SEDE_NOMBRE_ADM", etiqueta = "Sede", maxi = 200)
@@ -238,6 +237,15 @@ SBPRO_2019_GEN <- SBPRO_2019_GEN %>%
                          .$INST_COD_INSTITUCION %in% c(1101, 1102, 1103, 1104)  ~ "U. Nacional",
                           TRUE ~ "Resto IES"))
 
+# Crear G3
+
+SBPRO_2019_GEN <- SBPRO_2019_GEN %>% 
+  mutate(G3 =  case_when(.$INST_COD_INSTITUCION == 1813  ~ "U. de los Andes",
+                         .$INST_COD_INSTITUCION == 1101  ~ "UN-Bogota",
+                         .$INST_COD_INSTITUCION == 1102  ~ "UN-Medellin",
+                          TRUE ~ "Resto IES"))
+
+
 # Crear G12
 
 SBPRO_2019_GEN <- SBPRO_2019_GEN %>% 
@@ -276,6 +284,9 @@ SBPRO_2019_GEN <- SBPRO_2019_GEN %>%
                           TRUE ~ "Resto IES"))
 
 
+
+
+
 #Convierto columnas en factores
 cols.to.factor <- sapply(SBPRO_2019_GEN, function(col) length(unique(col)) < 100)
 SBPRO_2019_GEN[cols.to.factor] <- lapply(SBPRO_2019_GEN[cols.to.factor] , factor)
@@ -286,6 +297,7 @@ SBPRO_2019_GEN[cols.to.factor] <- lapply(SBPRO_2019_GEN[cols.to.factor] , factor
 Saber_Global_Pais<- grafica_radar(SBPRO_2019_GEN, clase = "SaberPais", etiqueta = " ", mini = 0)
 Saber_Global_Unal<- grafica_radar(SBPRO_2019_GEN, clase = "Unal", etiqueta = " ", mini = 0)
 Saber_Global_G2<- grafica_radar(SBPRO_2019_GEN, clase = "G2", etiqueta = " ", mini = 100, maxi = 220)
+Saber_Global_G3<- grafica_radar(SBPRO_2019_GEN, clase = "G3", etiqueta = " ", mini = 100, maxi = 220)
 Saber_Global_G12<- grafica_radar(SBPRO_2019_GEN, clase = "G12", etiqueta = " ", mini = 100, maxi = 220)
 Saber_Global_G15<- grafica_radar(SBPRO_2019_GEN, clase = "G15", etiqueta = " ", mini = 100, maxi = 220)
 
@@ -295,6 +307,7 @@ Saber_Global_G15<- grafica_radar(SBPRO_2019_GEN, clase = "G15", etiqueta = " ", 
 Salvar(Saber_Global_Pais, "SaberPro", "GeneralPais.html")
 Salvar(Saber_Global_Unal, "SaberPro", "GeneralUnal.html")
 Salvar(Saber_Global_G2, "SaberPro", "Grupo2.html")
+Salvar(Saber_Global_G3, "SaberPro", "Grupo3.html")
 Salvar(Saber_Global_G12, "SaberPro", "Grupo12.html")
 Salvar(Saber_Global_G15, "SaberPro", "Grupo15.html")
 

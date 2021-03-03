@@ -758,6 +758,17 @@ Saber_Global_G2
 
 ]
 
+.panel[.panel-name[G3]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center', ,out.height='415'}
+Saber_Global_G3
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por el Instituto Colombiano para la Evaluación de la Educación - ICFES. 
+<b>Disponible en: </b><a href="https://estadisticaun.github.io/TendenciasCSU/SaberPro/Grupo3.html">https://estadisticaun.github.io/TendenciasCSU/SaberPro/Grupo3.html</a></i></font> 
+
+]
+
 
 .panel[.panel-name[G12]
 
