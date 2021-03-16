@@ -115,7 +115,8 @@ xaringanExtra::use_logo(
 ### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#68)
 #### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#69)
 #### [3.2 Resultados Saber Pro](https://estadisticaun.github.io/TendenciasCSU/#71)
-### [4. Rankings](https://estadisticaun.github.io/TendenciasCSU/#94)
+### [4.Deserción y desvinculación en pregrado](https://estadisticaun.github.io/TendenciasCSU/#94)
+### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#107)
 ]
 
 ---
@@ -1083,11 +1084,89 @@ Saber_Area
 
 - <p align="justify"> Los estudiantes del área de Matemáticas y Ciencias Naturales presentan los mejores promedios en las pruebas Saber Pro. En contraste, los de Agronomía, Veterinaria y Afines, los peores resultados promedio.
 
+---
+class: inverse, center, middle
+
+# 4. Deserción y desvinculación en pregrado
+
+---
+## Deserción y desvinculación en la UNAL
+#### Definiciones generales
+
+##### <u>Deserción en la UNAL</u>
+
+<p align="justify"> Se considera como desertor(a) "definitivo" al estudiante que, tras cumplir el plazo límite para solicitar reingreso, continúa bloqueado (3 años;cf. Artículo 46. [Acuerdo 008 de 2008 del Consejo Superior Universitario](http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=34983)). Teniendo en cuenta lo anterior, no es posible calcular la deserción para las cohortes más recientes (2018-1s 2020-1s) en razón a que los estudiantes de estos periodos, aunque se encuentren bloqueados, tienen probabilidades de regresar/reingresar según lo dispuesto en la normatividad institucional.
+
+##### <u>Deserción por cohortes en la UNAL</u>
+
+<p align="justify"> Corresponde a la cantidad de estudiantes que ingresaron en un periodo académico determinado (semestre) y que, a la fecha de corte de la información, se encuentran bloqueados "definitivamente" por las diferentes causas de pérdida de la calidad de estudiante (motivos académicos o motivos no académicos).
+
+---
+## Deserción y desvinculación en la UNAL
+#### Definiciones generales
+
+##### <u>Desvinculación por cohortes en la UNAL</u>
+
+<p align="justify"> Se considera como desvinculado en la UNAL al estudiante admitido en un periodo/cohorte determinado(a) que se encuentra bloqueado (no matriculado) pero que aún no ha cumplido los tiempos definidos en la Universidad para ser considerado un desertor "definitivo" (3 años;cf. Artículo 46. [Acuerdo 008 de 2008 del Consejo Superior Universitario](http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=34983)). Es decir, tiene probabilidad de retornar a la institución y continuar con sus estudios académicos.
+
+---
+### Evolución tasa de deserción definitiva en pregrado por cohortes <br> en la UNAL 
+
+![](Imagenes/Deser1.png)
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Programas Curriculares de Pregrado</i></font>
+
+---
+### Evolución tasa de deserción en pregrado por sedes y cohortes <br> en la UNAL 
+
+![](Imagenes/Deser4.png)
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Programas Curriculares de Pregrado</i></font>
+
+---
+### Evolución tasa de desvinculación en pregrado por cohortes <br> en la UNAL 
+
+![](Imagenes/Deser2.png)
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Programas Curriculares de Pregrado</i></font>
+
+---
+### Evolución tasa de desvinculación en pregrado por sedes y cohortes <br> en la UNAL 
+
+![](Imagenes/Deser5.png)
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Programas Curriculares de Pregrado</i></font>
+
+---
+### Evolución tasa de deserción vs desvinculación en pregrado <br> en la UNAL 
+
+![](Imagenes/Deser3.png)
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Programas Curriculares de Pregrado</i></font>
+
+---
+## Para tener en cuenta
+
+--
+
+- <p align="justify"> La tasa de deserción definitiva en pregrado por cohortes en la Universidad Nacional de Colombia se ubica entre un 41% y 45%. Es decir, por cada 100 admitidos a la UNAL, se espera que entre 41 y 45 de ellos deserten. 
+
+--
+
+- <p align="justify"> La Sede Medellín presenta las mayores tasas de deserción en pregrado por cohortes en la UNAl; en contraste, la Sede Bogotá presenta las tasas más bajas de deserción. Las sedes de Manizales y Palmira ubican sus tasas de deserción entre los valores obtenidos por las sedes Bogotá y Medellín.
+
+--
+
+- <p align="justify"> Por cada 100 admitidos a la UNAL se espera que entre 55 y 60 deserten definitivamente si estos fueron admitidos a la sede Medellín; entre 50 y 55 si fueron admitidos a la Sede Palmira; entre 38 y 45 si fueron admitidos a la Sede Manizales y, finalmente, se espera que deserten entre 36 y 37 si fueron admitidos a la Sede Bogotá.
+
+--
+
+- <p align="justify"> La Sede Medellín de la Universidad Nacional de Colombia presenta las mayores tasas de desvinculación por cohortes de la UNAL; la Sede Bogotá, en contraste, presenta las menores tasas de desvinculación por cohortes. Las sedes Palmira y Manizales, durante los últimos periodos/cohortes presentan unas tasas de desvinculación semejantes –o mayores- a las de la Sede Medellín y se alejan del comportamiento de la Sede Bogotá.
+
 
 ---
 class: inverse, center, middle
 
-# 4. Rankings
+# 5. Rankings
 
 ---
 ### La UNAL en el Ranking QS

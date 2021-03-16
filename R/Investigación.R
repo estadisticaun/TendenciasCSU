@@ -385,7 +385,7 @@ col <-   c( "#6d6666",  # gris
 Bienestar <- Plot.Series(datos = Ubienestar, categoria = "BIENESTAR", col = col,
                         libreria = "highcharter",
                         titulo = "Evolución de beneficiarios programas de bienestar <br> de la Universidad Nacional de Colombia por áreas",
-                        labelY = "Total beneficiarios",
+                        labelY = "Total beneficiarios (k: miles)",
                         estilo    = list(hc.Tema = 6, hc.Slider = FALSE,
                                          hc.Credits = "Periodo: 2015-2020"))
 
@@ -446,7 +446,7 @@ col <-   c( "#6d6666",  # gris
 Economica <- Plot.Series(datos = Ugyf, categoria = "ECONÓMICO", col = col,
                          libreria = "highcharter",
                          titulo = "Evolución de beneficiarios programas del <br> Área de Gestión y Fomento Socieoconómica",
-                         labelY = "Total beneficiarios",
+                         labelY = "Total beneficiarios (k: miles)",
                          estilo    = list(hc.Tema = 6, hc.Slider = FALSE,
                                           hc.Credits = "Periodo: 2005-2020"))
 
