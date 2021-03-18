@@ -1095,11 +1095,11 @@ class: inverse, center, middle
 
 ##### <u>Deserción en la UNAL</u>
 
-<p align="justify"> Se considera como desertor(a) "definitivo" al estudiante que, tras cumplir el plazo límite para solicitar reingreso, continúa bloqueado (3 años;cf. Artículo 46. [Acuerdo 008 de 2008 del Consejo Superior Universitario](http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=34983)). Teniendo en cuenta lo anterior, no es posible calcular la deserción para las cohortes más recientes (2018-1s 2020-1s) en razón a que los estudiantes de estos periodos, aunque se encuentren bloqueados, tienen probabilidades de regresar/reingresar según lo dispuesto en la normatividad institucional.
+<p align="justify"> Se considera como desertor(a) "definitivo" al estudiante que, tras cumplir el plazo límite para solicitar reingreso (3 años;cf. Artículo 46. [Acuerdo 008 de 2008 del Consejo Superior Universitario](http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=34983)),continúa bloqueado por alguna de las causas de pérdida de la calidad de estudiante (motivos académicos o no académicos). Teniendo en cuenta lo anterior, no es posible calcular la deserción para las cohortes más recientes (2018-1s 2020-1s) en razón a que los estudiantes de estos periodos, aunque se encuentren bloqueados, tienen probabilidades de regresar/reingresar según lo dispuesto en la normatividad institucional. 
 
 ##### <u>Deserción por cohortes en la UNAL</u>
 
-<p align="justify"> Corresponde a la cantidad de estudiantes que ingresaron en un periodo académico determinado (semestre) y que, a la fecha de corte de la información, se encuentran bloqueados "definitivamente" por las diferentes causas de pérdida de la calidad de estudiante (motivos académicos o motivos no académicos).
+<p align="justify"> Corresponde a la cantidad de estudiantes que ingresaron en un periodo académico determinado (cohorte) y que, a la fecha de corte de la información, se encuentran bloqueados "definitivamente" por las diferentes causas de pérdida de la calidad de estudiante (motivos académicos o motivos no académicos).
 
 ---
 ## Deserción y desvinculación en la UNAL
@@ -1121,40 +1121,40 @@ class: inverse, center, middle
 ---
 ## ¿Cómo interpretar los resultados de deserción y desvinculación en la UNAL?
 
-<p align="justify">4.	Las tasas de deserción decrecen a medida que nos acercamos al periodo 2017-2 por una razón central: muchos de los estudiantes admitidos en dichas cohortes aún continúan matriculados y no han alcanzado el tiempo requerido para estar graduados: entre más antiguas sean las cohortes, más precisa serán las mediciones de deserción; entre más recientes, menos precisas por la condición antes planteada. 
+<p align="justify">4.	Las tasas de deserción decrecen a medida que nos acercamos al periodo 2017-2 por una razón central: muchos de los estudiantes admitidos en dichas cohortes aún continúan matriculados y, en caso de estar bloqueados, estos se consideran como desvinculados dado que no han alcanzado el tiempo requerido para considerarse como desertores: entre más antiguas sean las cohortes, más precisa serán las mediciones de deserción; entre más recientes, menos precisas por la condición antes planteada. 
 
 <p align="justify">5.	Las desvinculaciones, al igual que la deserción, además de analizarse por cohortes, hacen referencia a aquellos estudiantes que se encuentran por fuera de la Universidad (bloqueados) pero que no han cumplido con el tiempo institucional de espera (3 años) definido para ser considerados desertores. Una vez cumplan dichos plazos, si estos no se reintegran a la institución, empezarán a engrosar las cifras de deserción. 
 
 
 ---
-### Evolución tasa de deserción definitiva en pregrado por cohortes <br> en la UNAL 
+### Evolución tasa de deserción en pregrado, analizada en el 2020-2, <br>por cohortes en la UNAL. 
 
 ![](Imagenes/Deser1.png)
 
 <font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Programas Curriculares de Pregrado</i></font>
 
 ---
-### Evolución tasa de deserción en pregrado por sedes y cohortes <br> en la UNAL 
+### Evolución tasa de deserción en pregrado, analizada en el 2020-2, <br> por sedes y cohortes en la UNAL. 
 
 ![](Imagenes/Deser4.png)
 <font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Programas Curriculares de Pregrado</i></font>
 
 ---
-### Evolución tasa de desvinculación en pregrado por cohortes <br> en la UNAL 
+### Evolución tasa de desvinculación en pregrado, analizada en el <br> 2020-2, por cohortes en la UNAL. 
 
 ![](Imagenes/Deser2.png)
 
 <font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Programas Curriculares de Pregrado</i></font>
 
 ---
-### Evolución tasa de desvinculación en pregrado por sedes y cohortes <br> en la UNAL 
+### Evolución tasa de desvinculación en pregrado, analizada en el <br> 2020-2, por sedes y cohortes en la UNAL. 
 
 ![](Imagenes/Deser5.png)
 
 <font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Programas Curriculares de Pregrado</i></font>
 
 ---
-### Evolución tasa de deserción vs desvinculación en pregrado <br> en la UNAL 
+### Evolución tasa de deserción vs desvinculación en pregrado, <br> analizada en el 2020-2, en la UNAL.
 
 ![](Imagenes/Deser3.png)
 
