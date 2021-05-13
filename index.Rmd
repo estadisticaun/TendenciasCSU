@@ -23,6 +23,7 @@ options(htmltools.dir.version = FALSE,  htmltools.preserve.raw = FALSE)
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 source("R/Funciones_Nuevas.R", encoding = 'UTF-8')
 source("R/SaberPRO.R", encoding = 'UTF-8')
+source("R/Admision.R")
 source("R/Investigación.R", encoding = 'UTF-8')
 ```
 
@@ -71,30 +72,13 @@ xaringanExtra::use_logo(
   4.	<p style="font-size:100%"  align="justify";> La totalidad de gráficos interactivos tienen la opción de ser vistos en <b>pantalla completa</b> (full screen). Para hacer uso de esta opción, ir a la parte baja de cada gráfico o a los íconos ubicados en la parte superior derecha o izquierda de los mismos. Para salir de la opción pantalla completa, dar click en la tecla <b>ESC</b>.</p>
   
   5.	<p style="font-size:100%"  align="justify";> Buena parte de los gráficos contenidos en las distintas diapositivas pueden ser <b>“manipulados”</b> al hacer <b>click</b> en las distintas <b>opciones/etiquetas</b> que los acompañan.</p>
-  
+
 ---
+
 ## Sistema Estadístico de la UNAL
 
 <p align="justify"> Las estadísticas/indicadores contenidos en esta presentación hacen parte, en una importante proporción, de las cifras contenidas en la página web de [estadísticas](http://estadisticas.unal.edu.co/home/) de la Universidad Nacional de Colombia. En esta página, se puede consultar información oficial, histórica, actual y desagregada por sedes de las principales características asociadas a las poblaciones de aspirantes y admitidos, matriculados, graduados, docentes de carrera y administrativos, principalmente. Invitamos a los interesados a explorar la información allí contenida o a ingresar a los siguientes links (enlaces) en donde se dispone la información existente y disponible a nivel nacional y para cada una de las 9 sedes que conforman la Universidad.
 
-
-.pull-left[
-
-#### [Cifras Nacionales](http://estadisticas.unal.edu.co/menu-principal/cifras-generales/cifras-generales/)
-#### [Sede Bogotá](http://estadisticas.unal.edu.co/menu-principal/cifras-sedes/bogota/)
-#### [Sede Medellín](http://estadisticas.unal.edu.co/menu-principal/cifras-sedes/medellin/)
-#### [Sede Manizales](http://estadisticas.unal.edu.co/menu-principal/cifras-sedes/manizales/)
-#### [Sede Palmira](http://estadisticas.unal.edu.co/menu-principal/cifras-sedes/palmira/)
-
-]
-
-.pull-right[
-#### [Sede La Paz (en construcción)](https://estadisticaun.github.io/BoletinLaPaz/)
-#### [Sede Orinoquía (en construcción)](https://estadisticaun.github.io/BoletinOrinoquia/)
-#### [Sede Amazonía (en construcción)](https://estadisticaun.github.io/BoletinAmazonia/)
-#### [Sede Caribe (en construcción)](https://estadisticaun.github.io/BoletinCaribe/)
-#### [Sede Tumaco (en construcción)](https://estadisticaun.github.io/BoletinTumaco/)
-]
 
 ---
 
@@ -114,9 +98,10 @@ xaringanExtra::use_logo(
 .pull-right[
 ### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#68)
 #### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#69)
-#### [3.2 Resultados Saber Pro](https://estadisticaun.github.io/TendenciasCSU/#71)
-### [4.Deserción y desvinculación en pregrado](https://estadisticaun.github.io/TendenciasCSU/#94)
-### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#109)
+#### [3.2  Resultados examen de admisión UNAL](https://estadisticaun.github.io/TendenciasCSU/#71)
+#### [3.3Resultados Saber Pro ](https://estadisticaun.github.io/TendenciasCSU/#79)
+### [4.Deserción y desvinculación en pregrado](https://estadisticaun.github.io/TendenciasCSU/#97)
+### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#112)
 ]
 
 ---
@@ -674,7 +659,6 @@ class: inverse, center, middle
 
 <font size=2><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional de Bienestar Universitario</i></font>
 
-
 ---
 class: inverse, center, middle
 
@@ -696,29 +680,144 @@ class: inverse, center, middle
 ---
 class: inverse, center, middle
 
-## 3.2 Resultados pruebas Saber Pro 2019
+## 3.2 Resultados examen de admisión UNAL
 
+---
+#### Resultados examen de admisión <FONT COLOR="red">aspirantes</FONT> a la UNAL
+
+.panelset[
+
+.panel[.panel-name[Distribución]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left'}
+hc_size(Pun_Asp_global, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+
+.panel[.panel-name[Sedes]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', out.height='415'}
+hc_size(Pun_Asp_sedes, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+
+.panel[.panel-name[Sexo]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Pun_Asp_sexo, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+
+.panel[.panel-name[M. inscripción]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Pun_Asp_tinscrip, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+
+.panel[.panel-name[PAES]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Pun_Asp_paes, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+
+.panel[.panel-name[Estrato]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Pun_Asp_estrato, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+]
+
+---
+#### Resultados examen de admisión <FONT COLOR="red">admitidos</FONT> a la UNAL
+
+.panelset[
+
+.panel[.panel-name[Distribución]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left'}
+hc_size(Pun_Adm_global, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+
+.panel[.panel-name[Sedes]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', out.height='415'}
+hc_size(Pun_Adm_sedes, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+
+.panel[.panel-name[Sexo]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Pun_Adm_sexo, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+
+.panel[.panel-name[M. inscripción]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Pun_Adm_tinscrip, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+
+.panel[.panel-name[PAES]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Pun_Adm_paes, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+
+.panel[.panel-name[Estrato]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Pun_Adm_estrato, height= 420)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+]
+]
+
+---
+class: inverse, center, middle
+
+## 3.3 Resultados pruebas Saber Pro 2019
 
 ---
 ### Cantidad de evaluados pruebas Saber Pro 2019
 
-<p align="justify"> Los resultados que se presentan a continuación se basan en la prueba Saber Pro aplicada por el Instituto Colombiano Para la Evaluación de la Educación ICFES en el año 2019. A continuación, se presenta el número de evaluados en este año a nivel nacional y en cada una de las sedes de la Universidad. 
+<p align="justify"> Los resultados que se presentan a continuación se basan en la prueba Saber Pro aplicada por el Instituto Colombiano Para la Evaluación de la Educación ICFES en el año 2019. A continuación, se presenta el número de evaluados en este año a nivel nacional y en cada una de las sedes de la Universidad.
 
 ```{r, echo=FALSE, message=FALSE}
-library(dplyr)
-library(knitr)
-Saber <- tibble(`Población` = c("País", "UNAL", "Sede Bogotá", "Sede                                        Medellín", "Sede Manizales", "Sede                                         Palmira", "Sede Orinoquía", "Sede                                          Amazonía", "Sede Caribe"),
+Saber <- tibble(`Población` = c("País", "UNAL", "Sede Bogotá", "Sede                                        Medellín", "Sede Manizales", "Sede Palmira", "Sede Orinoquía", "Sede                                          Amazonía", "Sede Caribe"),
                 `Total evaluados` = c(260756, 5803, 3441, 1274, 646,
                                       335, 69, 47, 8))
 knitr::kable(Saber, col.names = gsub("[.]", " ", names(Saber)))
 ```
-
-
-
-<!-- --- -->
-<!-- ### Competencias genéricas evaluadas en las pruebas Saber Pro 2019 -->
-
-<!-- ![](Imagenes/SaberPRO.png) -->
 
 ---
 #### Resultados <FONT COLOR="red">País</FONT> Saber Pro 2019

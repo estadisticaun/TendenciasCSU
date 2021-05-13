@@ -833,3 +833,79 @@ Plot.Barras <- function(datos, categoria, ano, periodo, vertical = TRUE, ordinal
   
   return(PlotBarras)
 }
+
+
+caja <- function(datos, titulo, eje){
+  datos_2 <- datos %>% filter(Serie != "2008-1")
+  gfa <- hcboxplot(x = datos_2$PTOTAL, var = datos_2$Serie, outliers = FALSE) %>%
+    hc_title(style = list( fontWeight = "bold",fontSize = "25px" ), text = titulo) %>%
+    hc_plotOptions( boxplot = list(
+      colorByPoint = F, color="#00a703" ))%>%
+    hc_exporting(enabled = TRUE, filename = "export") %>% 
+    hc_yAxis( min = 0, max = 1000,
+              title = list(style = list( fontWeight = "bold",
+                                         color = "black",
+                                         fontSize = "18px"), text = eje),
+              labels = list(
+                style = list(
+                  fontWeight = "bold",
+                  color = 'black',
+                  fontSize = '18px'
+                ))
+    ) %>% 
+    hc_xAxis(
+      title = list(style = list( fontWeight = "bold",
+                                 color = "black",
+                                 fontSize = "18px"), text = "Periodo"),
+      labels = list(
+        style = list(
+          fontWeight = "bold",
+          color = 'black',
+          fontSize = '18px'
+        ))
+    ) %>% 
+    hc_add_theme(hc_theme_elementary()) %>%
+    hc_chart(type = "column")
+  return(gfa)
+}
+
+caja_n <- function(datos, titulo, eje, colores ){
+  n <- datos %>% select(Agrupacion) %>% distinct() %>% nrow()
+  colo <- colores[1:n]
+  datos_2 <- datos %>% filter(Serie != "2008-1")
+  gfa <- hcboxplot(x = datos_2$PTOTAL, var = datos_2$Serie, var2 = datos_2$Agrupacion, outliers = FALSE, color=colo) %>%
+    hc_title(style = list( fontWeight = "bold",fontSize = "25px" ), text = titulo) %>%
+    hc_exporting(enabled = TRUE, filename = "export") %>% 
+    hc_yAxis(lineColor = '#787878', lineWidth = 1, min = 0, max = 1000,
+             title = list(style = list( fontWeight = "bold",
+                                        color = "black",
+                                        fontSize = "18px"), text = eje),
+             labels = list(
+               style = list(
+                 fontWeight = "bold",
+                 color = 'black',
+                 fontSize = '18px'
+               ))
+    ) %>% 
+    hc_xAxis(lineColor = '#787878', lineWidth = 1,
+             title = list(style = list( fontWeight = "bold",
+                                        color = "black",
+                                        fontSize = "18px"), text = "Periodo"),
+             labels = list(
+               style = list(
+                 fontWeight = "bold",
+                 color = 'black',
+                 fontSize = '18px'
+               ))
+    )  %>%
+    hc_add_theme(hc_theme_elementary()) %>%
+    hc_legend(enabled = TRUE, align = "center",layout = "horizontal",
+              x = 42, y = 0,
+              itemStyle = list(
+                fontWeight = "bold",
+                color = 'black',
+                fontSize = '18px'
+              )) %>%
+    hc_chart(type = "column") 
+  return(gfa)
+}
