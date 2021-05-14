@@ -99,9 +99,9 @@ xaringanExtra::use_logo(
 ### [3. Calidad](https://estadisticaun.github.io/TendenciasCSU/#68)
 #### [3.1 Docentes](https://estadisticaun.github.io/TendenciasCSU/#69)
 #### [3.2  Resultados examen de admisión UNAL](https://estadisticaun.github.io/TendenciasCSU/#71)
-#### [3.3Resultados Saber Pro ](https://estadisticaun.github.io/TendenciasCSU/#79)
-### [4.Deserción y desvinculación en pregrado](https://estadisticaun.github.io/TendenciasCSU/#97)
-### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#112)
+#### [3.3Resultados Saber Pro ](https://estadisticaun.github.io/TendenciasCSU/#80)
+### [4.Deserción y desvinculación en pregrado](https://estadisticaun.github.io/TendenciasCSU/#98)
+### [5. Rankings](https://estadisticaun.github.io/TendenciasCSU/#113)
 ]
 
 ---
@@ -741,6 +741,103 @@ hc_size(Pun_Asp_estrato, height= 420)
 <font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
 ]
 ]
+
+---
+#### Distribución puntajes <FONT COLOR="red">aspirantes vs admitidos</FONT> - sedes UNAL
+
+.panelset[
+
+.panel[.panel-name[Bogotá]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Asp_Adm_Bog, height= 395)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+
+]
+
+.panel[.panel-name[Medellín]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Asp_Adm_Med, height= 395)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+
+]
+
+.panel[.panel-name[Manizales]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Asp_Adm_Man, height= 395)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+
+]
+
+.panel[.panel-name[Palmira]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Asp_Adm_Pal, height= 395)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+
+]
+
+.panel[.panel-name[De La Paz]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Asp_Adm_Paz, height= 395)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+
+]
+
+.panel[.panel-name[Orinoquía]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Asp_Adm_Orq, height= 395)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+
+]
+
+.panel[.panel-name[Amazonía]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Asp_Adm_Amz, height= 395)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+
+]
+
+.panel[.panel-name[Caribe]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Asp_Adm_Car, height= 395)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+
+]
+
+.panel[.panel-name[Tumaco]
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', ,out.height='415'}
+hc_size(Asp_Adm_Tum, height= 395)
+```
+
+<font size=1><i><b>Fuente:</b> Dirección Nacional de Planeación y Estadística con base en información provista por la Dirección Nacional Admisiones</i></font>
+
+]
+]
+
 
 ---
 #### Resultados examen de admisión <FONT COLOR="red">admitidos</FONT> a la UNAL

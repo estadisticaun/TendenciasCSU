@@ -1,4 +1,4 @@
-# Librerías Requeridas
+# Librerías ----
 
 library(UnalData)
 library(dplyr)
@@ -6,7 +6,7 @@ library(DT)          # version 0.4
 library(highcharter) # version 0.5.0.9999
 
 ####################-
-#ASPIRANTES
+#ASPIRANTES ----
 ####################-
 
 # Seleccionar variables 
@@ -92,7 +92,7 @@ Pun_Asp_sexo <- caja_n(datos= Puntaje %>% mutate(Agrupacion = SEXO),
                         colores = col)
 
 ####################-
-# ADMITIDOS
+# ADMITIDOS ----
 ####################-
 
 # Seleccionar variables 
@@ -175,3 +175,48 @@ Pun_Adm_sexo <- caja_n(datos= PuntajeA %>% mutate(Agrupacion = SEXO),
                        titulo = '', 
                        eje = "Puntaje examen de admisión UNAL", 
                        colores = col)
+
+##############################-
+# Aspirantes vs admitidos ----
+##############################-
+
+AspirantesPRE <- UnalData::Aspirantes %>% 
+  filter(NIVEL == "Pregrado", !is.na(MOD_INS), !is.na(INS_SEDE_NOMBRE), YEAR >= 2019) %>% 
+  mutate(Serie = paste(YEAR,SEMESTRE, sep = "-")) %>% 
+  select(Serie, PTOTAL, TIPO_INS, INS_SEDE_NOMBRE, ADM_SEDE_NOMBRE, PAES, ESTRATO, SEXO, ADMITIDO) %>% 
+  mutate(Poblacion = ".Aspirantes")
+
+AdmitidosPRE <- UnalData::Aspirantes %>% 
+  filter(ADMITIDO == "Sí", NIVEL == "Pregrado", !is.na(MOD_INS), !is.na(INS_SEDE_NOMBRE), YEAR >= 2019) %>% 
+  mutate(Serie = paste(YEAR,SEMESTRE, sep = "-")) %>% 
+  select(Serie, PTOTAL, TIPO_INS, INS_SEDE_NOMBRE, ADM_SEDE_NOMBRE, PAES, ESTRATO, SEXO, ADMITIDO) %>% 
+  mutate(Poblacion = "Admitidos")
+
+# Adicionar, por abajo, aspirantes admitidos
+
+PunAspAdm <- bind_rows(AspirantesPRE, AdmitidosPRE)
+
+# Colores
+
+col <-   c( "#29abe2", # azul claro
+            "#c1272d" # Rojo
+) 
+
+# Construcción de función
+Sedes <- function(Sede){
+  caja_n(datos= PunAspAdm %>% filter(INS_SEDE_NOMBRE == Sede) %>% mutate(Agrupacion = Poblacion), 
+         titulo = '', 
+         eje = "Puntaje examen de admisión UNAL", 
+         colores = col)
+}
+
+Asp_Adm_Bog <- Sedes("Bogotá")
+Asp_Adm_Med <- Sedes("Medellín")
+Asp_Adm_Man <- Sedes("Manizales")
+Asp_Adm_Pal <- Sedes("Palmira")
+Asp_Adm_Paz <- Sedes("De La Paz")
+Asp_Adm_Orq <- Sedes("Orinoquía")
+Asp_Adm_Car <- Sedes("Caribe")
+Asp_Adm_Amz <- Sedes("Amazonía")
+Asp_Adm_Tum <- Sedes("Tumaco")
+
